@@ -1,0 +1,286 @@
+/* obective area */
+.for-professionals {
+    background-color: #f8f9fa;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover {
+    background-color: var(--primary-color);
+}
+
+.for-professionals .for-profesionals-info .single-info {
+    margin-top: 30px;
+    position: relative;
+    padding: 40px;
+    padding-left: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #081828;
+    margin-bottom: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info i {
+    font-size: 30px;
+    color: var(--primary-color);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover i {
+    color: #fff;
+}
+
+.for-professionals .for-profesionals-info ul,
+.for-professionals .for-profesionals-info ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.for-professionals .for-profesionals-info li {
+    font-weight: 400;
+    font-style: normal;
+    color: #888;
+    overflow-x: hidden;
+    font-size: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover ul li,
+.for-professionals .for-profesionals-info .single-info:hover h3 {
+    color: #fff;
+}
+
+/*==== Fin bective area ====*/
+
+/* Estilos de call to action */
+
+.call-action {
+    padding-bottom: 4em;
+    background-color: #f8f9fa;
+}
+
+.call-action .container {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+}
+
+.call-action .cta-content {
+    text-align: left;
+}
+
+.call-action .cta-image {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInRight;
+}
+
+.cta-image img {
+    height: 100%;
+    max-height: 21em;
+    max-width: max-content;
+}
+
+.call-action .cta-content h2 {
+    color: #fff;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.call-action .cta-content p {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.call-action .cta-content .button {
+    margin-top: 40px;
+}
+
+/* ==== Fin Estilos de call to action ==== */
+
+/*Estilos de why-psicologo*/
+
+.why-psicologo .single-caracteristicas {
+    min-height: 28em;
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.why-psicologo .single-caracteristicas:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.why-psicologo .single-caracteristicas i,
+.information .single-information i, .single-feature i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 4px 6px #0000002a;
+    box-shadow: 0px 4px 6px #0000002a;
+    margin-bottom: 20px;
+}
+.why-psicologo-image img {
+    max-height: 38em;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+/* ==== Fin why-psicologo ==== */
+
+/*Estilos de most-demanded*/
+.work .img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.img img {
+    filter:brightness(0.4);
+    background-color: rgba(33, 147, 222, 0.80);
+}
+
+.work .img:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.work .text {
+    padding: 35px;
+    padding-top: 0;
+}
+
+.most-demanded h3 {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--accent-color);
+}
+/* ==== Fin most-demanded ==== */
+
+/* Estilos FAQ area */
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-item .accordion-button {
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #eee;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-right: 40px;
+}
+
+.accordion-item .accordion-button .title {
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    float: left;
+    padding-left: 45px;
+    line-height: 25px;
+}
+
+.accordion-item .accordion-button .title .serial {
+    color: #081828;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.accordion-item .accordion-button i {
+    font-size: 13px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+    top: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+
+/* ==== Media Query ==== */
+
+@media (min-width: 992px) {
+    .for-professional .for-profesionals-info .single-info {
+        min-height: 23em;
+    }
+}
+
+@media (max-width: 991px) {
+    .for-professional .for-profesionals-info .single-info {
+        min-height: none;
+    }
+
+    .why-psicologo-image img {
+        max-height: 20em;
+        margin-top: 2em;
+    }
+
+    .work {
+        margin-top: 2em;
+    }
+}

@@ -1,0 +1,192 @@
+.caracteristicas .single-caracteristicas {
+  height: 23em !important;
+  text-align: left;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid #eee;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.caracteristicas .single-caracteristicas:hover {
+  -webkit-box-shadow: 0px 3px 5px #00000017;
+  box-shadow: 0px 3px 5px #00000017;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.caracteristicas .single-caracteristicas i,
+.information .single-information i {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 4px 6px #0000002a;
+  box-shadow: 0px 4px 6px #0000002a;
+  margin-bottom: 20px;
+}
+
+.single-caracteristicas__2 i {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 4px 6px #0000002a;
+  box-shadow: 0px 4px 6px #0000002a;
+  margin-bottom: 20px;
+}
+
+.caracteristicas img, .nuestros-logros img {
+  width: auto;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nuestros-logros .single-achievement i{
+  font-size: 4em;
+}
+
+.nuestros-logros .single-achievement p{
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+
+.nuestro-trabajo img {
+  max-height: 40em;
+  width: 100%;
+  object-fit: cover;
+  align-items: center;
+}
+
+.call-action .container,
+.nuestros-logros .container {
+  background-color: var(--primary-color);
+  border-radius: 35px;
+}
+
+.nuestros-logros {
+  background-color: #f8f9fa;
+  text-align: right;
+  padding: 40px 0;
+}
+
+.nuestros-logros h2 {
+  margin-bottom: 5px;
+  line-height: 42px;
+  position: relative;
+  font-weight: 800;
+}
+
+.nuestros-logros p {
+  /*color: white;*/
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+}
+
+.nuestros-logros .single-logros {
+  margin-top: 5px;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.nuestros-logros .single-logros i {
+  font-size: 30px;
+}
+
+.nuestros-logros .single-logros h3 {
+  font-size: 45px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.nuestros-logros .single-logros p {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#etica-moodeast .section-title {
+  padding-top: 50px;
+}
+
+#etica-moodeast #services .section-title {
+  padding-top: 50px;
+}
+
+.etica-color {
+  background-color: #f8f9fa;
+  height: 200vh;
+}
+
+
+@media (max-width: 992px) {
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #logros .title h2 {
+    line-height: 50px;
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  #logros p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  #call-action h2 {
+
+    font-size: 29px;
+
+  }
+
+  #etica-moodeast .single-caracteristicas {
+    height: 19em !important;
+
+  }
+
+  #etica-moodeast .etica-color {
+    height: 180vh;
+
+  }
+
+  #logros .single-logros p {
+    font-size: 26px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 15px;
+
+  }
+
+}

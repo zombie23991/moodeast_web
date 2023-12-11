@@ -1,0 +1,60 @@
+.newsletter {
+    background-color: var(--primary-color);
+}
+
+.kickstarter {
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+}
+
+.newsletter .newsletter-form {
+    position: relative;
+    max-width: 100%;
+    margin-top: 2em;
+    z-index: 999;
+}
+
+.newsletter .newsletter-form input {
+    height: 55px;
+    width: 100%;
+    padding: 18px 135px 17px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    border: 0 none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #fff;
+    color: #1107ff;
+    font-size: 1.125rem;
+    line-height: 1;
+}
+
+.newsletter .newsletter-form button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 116px;
+    height: 36px;
+    transition: background-color .3s cubic-bezier(.165,.84,.44,1);
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    color: black;
+    font-size: .875rem;
+    line-height: 1;
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.newsletter .newsletter-form button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}

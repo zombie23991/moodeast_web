@@ -1,0 +1,220 @@
+/*Estilos de caracteristicas*/
+
+.improve-mental-health .single-caracteristicas {
+    height: 21em !important;
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.improve-mental-health .single-caracteristicas:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.improve-mental-health .single-caracteristicas i,
+.information .single-information i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 4px 6px #0000002a;
+    box-shadow: 0px 4px 6px #0000002a;
+    margin-bottom: 20px;
+}
+
+/* obective area */
+.for-professionals {
+    background-color: #f8f9fa;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover {
+    background-color: var(--primary-color);
+}
+
+.for-professionals .for-profesionals-info .single-info {
+    margin-top: 30px;
+    position: relative;
+    padding: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+
+    min-height: 21em
+}
+
+.for-professionals .for-profesionals-info .single-info h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #081828;
+    margin-bottom: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info i {
+    font-size: 30px;
+    color: var(--primary-color);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover i {
+    color: #fff;
+}
+
+.for-professionals .for-profesionals-info ul,
+.for-professionals .for-profesionals-info ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.for-professionals .for-profesionals-info li {
+    font-weight: 400;
+    font-style: normal;
+    color: #888;
+    overflow-x: hidden;
+    font-size: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover ul li,
+.for-professionals .for-profesionals-info .single-info:hover h3 {
+    color: #fff;
+}
+
+/*==== Fin bective area ====*/
+
+/* Estilos de call to action */
+
+.call-action {
+    padding-bottom: 4em;
+   
+}
+
+.call-action .container {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+}
+
+.call-action .cta-content {
+    text-align: left;
+}
+
+.call-action .cta-image {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInRight;
+}
+
+.cta-image img {
+    height: 100%;
+    max-height: 21em;
+    max-width: max-content;
+}
+
+.call-action .cta-content h2 {
+    color: #fff;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.call-action .cta-content p {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.call-action .cta-content .button {
+    margin-top: 40px;
+}
+
+/* ==== Fin Estilos de call to action ==== */
+
+/* Estilos de information */
+
+.information {
+    background-color: #f8f9fa;
+}
+
+.conatiner-mockup {
+    padding: 50px;
+}
+
+.mockup1,
+.mockup2 {
+    vertical-align: middle;
+    width: 25em;
+    height: auto;
+}
+
+/* Estilos de logros */
+.nuestros-logros {
+    background-color: #f8f9fa;
+    
+    text-align: right;
+    padding: 40px 0;
+}
+
+.nuestros-logros h2 {
+    margin-bottom: 5px;
+    line-height: 42px;
+    position: relative;
+    font-weight: 800;
+}
+
+.nuestros-logros p {
+    /*color: white;*/
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.nuestros-logros .single-logros {
+    margin-top: 5px;
+    text-align: right;
+    padding: 0px 10px;
+}
+
+.nuestros-logros .single-logros h3 {
+    font-size: 45px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nuestros-logros .single-logros p {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+
+/* ==== Media Query ==== */
+
+@media (max-width: 991px) {
+    .for-professionals .for-profesionals-info .single-info {
+        min-height: 0em;
+    }
+}

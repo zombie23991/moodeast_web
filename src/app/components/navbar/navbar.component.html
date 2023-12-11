@@ -1,0 +1,35 @@
+<header class="d-flex justify-content-center">
+  <nav class="navbar navbar-expand-lg d-flex transparent" >
+    <div class="container-fluid">
+      <a [routerLink]="['/']" class="navbar-brand" id="logo" href="#"><img src="https://leviathancreativestudios.com/assets/img/moodeast.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/why-moodeast']">¿Por qué MoodEast?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/psicologos']">Psicólogos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mejorar-salud-mental']">Mejorar tu salud mental</a>
+            </li>
+            <!--<li class="nav-item">
+                <a class="nav-link" [routerLink]="['/precios']">Precios</a>
+            </li>-->
+        </ul>
+      </div>
+      <button class="btn rounded-pill btn-lg  btn-download" routerLink="/coming-soon" >
+        Descargar APP
+      </button>
+    </div>
+  </nav>
+</header>
+
+
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i
+    class="bi bi-arrow-up-short"></i></a>

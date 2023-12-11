@@ -1,0 +1,67 @@
+.privacy-content {
+    position: fixed;
+    /*top: 5.5em;*/
+    bottom: 7.5em;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    z-index: 9999;
+}
+
+.privacy-title{
+  line-height: 42px;
+  text-transform: capitalize;
+  position: relative;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.bi {
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+.bi:hover {
+    color: var(--secondary-color);
+}
+
+/*=====Media Qwery =====*/
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .privacy-content {
+        left: 0em;
+        bottom: 9em;
+    }
+
+}

@@ -1,0 +1,9 @@
+<app-privacy-modal [isVisible]="showModal" (onClose)="closePrivacySettings()"></app-privacy-modal>
+
+<div *ngIf="showNotification" class="gdpr-notification shadow">
+    <p>Esta página utiliza cookies para mejorar tu experiencia. Haz clic en "Aceptar" para continuar.</p>
+    <div class="d-flex justify-content-between align-items-center">
+        <button (click)="dismissNotification()" class="btn btn-primary mt-2">Aceptar</button>
+        <button (click)="openPrivacySettings()" class="privacy-settings mt-2 ms-3">Configuración de privacidad</button>
+    </div>
+</div>

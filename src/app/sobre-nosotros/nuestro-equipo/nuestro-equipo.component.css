@@ -1,0 +1,68 @@
+/*Header Section*/
+.header {
+    background: var(--primary-color);
+    height: 75vh;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 54px;
+    margin-bottom: 25px;
+    line-height: 52px;
+    position: relative;
+    font-weight: 700;
+    color: white;
+}
+
+.title-h1 {
+    color: var(--secondary-color);
+}
+
+.header p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/*==== Fin Header Section ====*/
+
+/* fundadores section*/
+
+.fundadores {
+    padding: 100px 0;
+    background: #f2f6fc;
+}
+
+.profile-photo {
+    height: 400px;
+    max-height: 70%;
+    width: 350px;
+    max-width: 70%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 35px !important;
+}
+
+.bi-linkedin {
+    font-size: 2em;
+}
+
+/*==== Fin Fundadores Section ====*/
+
+/* Equipo section*/
+
+.team-img {
+    overflow: hidden;
+    padding: 0;
+    
+    
+}
+
+.team-img img {
+    width: 100%;
+}
+
+/*==== Fin Equipo Section ====*/

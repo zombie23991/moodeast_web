@@ -1,0 +1,177 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: var(--primary-color);
+}
+
+/* Estilos del botón al pasar el mouse sobre él */
+.btn-notfound:hover {
+    background-color: var(--accent-secondary-color);
+    color: white;
+}
+
+/* Estilos del formulario principal */
+.main-form {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 1px 30px 0 rgba(32, 32, 32, 0.11);
+    border-radius: 18px;
+}
+
+/* Estilos específicos para el grupo de formularios dentro de .main-form */
+.form .form-group .main-form {
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Estilos del área de texto dentro del formulario */
+.main-form .form .form-group textarea {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #e6e2f5;
+    padding: 15px 20px;
+    color: #333;
+    resize: none;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* Transiciones suaves */
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+/* Estilos de los inputs dentro del formulario */
+.main-form .form .form-group input {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #e6e2f5;
+    padding: 15px 20px;
+    color: #333;
+    resize: none;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+/* Estilos generales de la sección */
+.section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* Estilos de la fila (contenedor flexible) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos generales del botón */
+.btn {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    color: black;
+    border: none;
+    transition: 0.2s;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Estilos de la tabla de formulario */
+.form-table {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    /* Transiciones suaves */
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+/* Estilos de la tabla de formulario al pasar el mouse sobre ella */
+.form-table:hover {
+    box-shadow: 0px 3px 5px #00000017;
+    transform: translateY(-5px);
+}
+
+/* Estilos para pantallas menores de 667px */
+@media (max-width: 667px) {
+    .section {
+        padding-top: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .main-form {
+        padding: 30px;
+        margin-top: 0.5em;
+    }
+}
+
+/* Estilos para pantallas menores de 983px */
+@media (max-width: 983px) {
+    .main-form {
+        padding: 19px;
+        margin-top: 0.5em;
+    }
+}
+
+/* Estilos para pantallas menores de 991px */
+@media (max-width: 991px) {
+    .section {
+        padding-top: 30px;
+    }
+
+    .main-form {
+        padding: 30px;
+        margin-top: 0.5em;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    body {
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column-reverse;
+        /* Cambia el orden de los elementos si es necesario */
+    }
+
+    .main-form {
+        flex: 0 0 auto;
+        /* Asegúrate de que el formulario no crezca más de lo necesario */
+    }
+
+    .main-form input,
+    .main-form textarea,
+    .main-form button {
+        font-size: 16px;
+        /* Ajusta el tamaño de la fuente */
+    }
+
+    h1 {
+        font-size: 20;
+        margin: 0;
+    }
+
+    body {
+        height: 100vh !important;
+    }
+
+    .section {
+        padding-top: 55px;
+    }
+}

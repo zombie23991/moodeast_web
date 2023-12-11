@@ -1,0 +1,104 @@
+/* Estilos para la sección de impacto */
+.single-impacto {
+    height: 20em; /* Altura fija para el contenedor de impacto */
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Transición suave en hover */
+  }
+  
+  .single-impacto:hover {
+    box-shadow: 0px 3px 5px #00000017; /* Sombra al hacer hover */
+    transform: translateY(-5px); /* Desplazamiento hacia arriba en hover */
+  }
+  
+  /* Estilos para las imágenes */
+  img {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+  }
+  
+  #call-action img,
+  #apoyo img {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 50px auto 0; /* Espaciado superior en imágenes específicas */
+  }
+  
+  #apoyo img {
+    height: 500px; /* Altura específica para imágenes en la sección de apoyo */
+  }
+  
+  /* Estilos para el ícono en la sección de impacto */
+  .single-impacto i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px #0000002a;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la sección de llamada a la acción */
+  .call-action .container {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+    margin: auto; /* Centrar el contenedor horizontalmente */
+  }
+  
+  /* Estilos para la sección de apoyo */
+  #apoyo {
+    background-color: #f8f9fa; /* Cambio de color de fondo */
+  }
+  
+  #apoyo h2 {
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+  
+  #apoyo .row {
+    align-items: center;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  #btn {
+    width: 48vh;
+    margin-left: auto; /* Mover el botón hacia la derecha */
+  }
+  
+  /* Estilos para diferentes tamaños de pantalla */
+  @media (max-width: 992px) {
+    .single-impacto {
+      height: 20em; /* Ajuste de altura para pantallas más pequeñas */
+    }
+  
+    #call-action img,
+    #apoyo img {
+      display: none; /* Ocultar imágenes en pantallas más pequeñas */
+    }
+  
+    #apoyo .row {
+      display: flex; /* Ajuste de diseño para la fila en pantallas más pequeñas */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .single-impacto {
+      height: 26em; /* Ajuste de altura adicional para pantallas más pequeñas */
+    }
+  }
+  
+  @media (max-width: 667px) {
+    /* Agrega estilos específicos para pantallas de hasta 667px si es necesario */
+  }

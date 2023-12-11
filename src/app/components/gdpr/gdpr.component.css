@@ -1,0 +1,24 @@
+.gdpr-notification {
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    margin-bottom: 10px ;
+    border-radius: 25px;
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.505);*/
+    z-index: 9998;
+}
+
+.gdpr-notification p {
+    margin: 0;
+}
+
+.privacy-settings{
+    text-decoration:none;
+    color: gray;
+    border-color: transparent;
+    background-color: transparent;
+    right: 20px;
+}

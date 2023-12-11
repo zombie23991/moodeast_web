@@ -1,0 +1,18 @@
+body{
+    background-color: var(--primary-color);
+}
+
+.btn-notfound {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.btn-notfound:hover {
+    background-color: var( --accent-secondary-color);
+    color: white;
+}
+
+.error{
+    color: var( --secondary-color);
+
+}

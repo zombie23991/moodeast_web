@@ -1,0 +1,64 @@
+.logo{
+    width:15em;
+    height: auto;
+}
+.bi {
+    font-size: 1.75em;
+    color: var(--primary-color);
+    transition: color 0.5s ease;
+}
+
+.bi:hover {
+    color: var(--accent-color);
+}
+
+.bi-youtube{
+    font-size: 2.15em;
+}
+
+h5 {
+    color: var(--accent-color);
+    font-weight: 700;
+    transition: color 0.5s ease;
+}
+
+.app{
+    transition: color 0.5s ease;
+}
+
+.app:hover{
+    color: var(--secondary-color);
+    transition: color 0.5s ease;
+}
+
+footer{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 1em;
+}
+
+.LCS {
+    text-decoration:none;
+    color: #0000a5;
+    transition: color 0.5s ease;
+}
+
+.LCS:hover {
+    text-decoration:none;
+    color: #9120ba;
+}
+
+@media (max-width: 991px) {
+    .logo{
+        width:10em;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo{
+        width:75%;
+        height: auto;
+    }
+}

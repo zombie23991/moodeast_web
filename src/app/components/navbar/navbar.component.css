@@ -1,0 +1,241 @@
+header {
+    width: 100%;
+}
+
+.navbar .nav-link {
+    font-size: 1.25em; /* Tamaño para pantallas medianas y grandes */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Transición para color y font-weight */
+}
+
+.navbar .nav-link:hover {
+    color: black;
+    font-weight: 500;
+}
+
+
+.nav-link.active {
+    color: var(--secondary-color); /* Color de tu elección */
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-right: 0.75em;
+}
+
+
+.transparent {
+    padding-top: 1em !important;
+    padding-right: 1.5em !important;
+}
+
+.navbar {
+    z-index: 999;
+    width: 100%;
+    margin: 0em;
+    position: fixed;
+    background-color: transparent;
+    transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
+    /* Agrega transiciones para el ancho y margen */
+}
+
+.navbar a {
+    /*color: white;*/
+    font-size: xx-large;
+}
+
+.navbar.scrolled a {
+    color: black;
+}
+
+.navbar-brand {
+    margin-left: 0.75em;
+    line-height: 42px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 800;
+}
+
+.common-title {
+    color: white ;
+}
+
+.navbar.scrolled {
+    width: 90%;
+    margin: 1em;
+    border-radius: 15px;
+    background-color: white;
+    transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
+    /* Agrega las mismas transiciones para mantener la consistencia */
+    color: black;
+}
+
+#navbarSupportedContent {
+    flex-direction: row-reverse;
+}
+
+.btn {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.common-btn-login {
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.btn-download {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.btn-download:hover {
+    background-color:  var( --accent-secondary-color);
+    color: white;
+}
+
+.btn-outline-primary{
+    color: var(--primary-color) !important;
+    border: 1px solid  var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--primary-color) ;
+    color: white !important;
+}
+
+.login-home-transparent {
+    color: white;
+    border: 1px solid transparent;
+}
+
+.login-home-transparent:hover {
+    background-color: #f9f9f9;
+    color: var(--primary-color);
+}
+
+.login-nohome-transparent {
+    color: var(--primary-color) !important;
+}
+
+.login-nohome-transparent:hover {
+    background-color: var(--primary-color);
+    color: #f9f9f9 !important;
+}
+
+#logo img {
+    max-width: 200px;
+    max-height: auto;
+    margin-right: 0.5em;
+}
+
+/*Boton volver al inicio*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #0d334d;
+    line-height: 0;
+}
+
+.back-to-top i:hover {
+    color: white;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top:hover {
+    background-color: var(--accent-secondary-color);
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 1308px) {
+    #logo img {
+        max-width: 175px; 
+        margin-right: 0;
+    }
+
+    .navbar .nav-link {
+        font-size: 1.15em;
+    }
+
+    .nav-item {
+        padding-right: 0.75em;
+        width: -webkit-fill-available;
+    }
+}
+
+@media (max-width: 1217px) {
+    #logo img {
+        max-width: 175px; 
+    }
+
+    .navbar .nav-link {
+        font-size: 1.15em;
+    }
+
+    #navbarSupportedContent {
+        text-align: left; /* Alinea el texto a la izquierda */
+        width: min-content; /* Ocupa todo el ancho disponible */
+    }
+
+    .navbar-nav {
+        justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    }
+}
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 991px) {
+    .btn {
+        margin-top: 0.5em;
+        margin-right: 0px !important;
+        width: 100%;
+    }
+
+    .btn-outline-light {
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+
+    #navbarSupportedContent {
+        background-color: white;
+        padding: 1em;
+        border-radius: 25px;
+    }
+
+    .btn-register {
+        width: 100%;
+        margin-top: 0.5em;
+    }
+
+    .navbar .nav-link {
+        font-size: 2em; /* Tamaño para pantallas medianas y grandes */
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #logo img {
+        max-width: 170px; 
+    }
+}

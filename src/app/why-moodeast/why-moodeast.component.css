@@ -1,0 +1,216 @@
+/* obective area */
+.obective {
+    background-color: #f8f9fa;
+}
+
+.obective .obective-info .single-info:hover {
+    background-color: var(--primary-color);
+}
+
+.obective .obective-info .single-info {
+    margin-top: 30px;
+    position: relative;
+    padding: 40px;
+    padding-left: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.obective .obective-info .single-info h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #081828;
+    margin-bottom: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.obective .obective-info .single-info i {
+    font-size: 30px;
+    color: var(--primary-color);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.obective .obective-info .single-info:hover i {
+    color: #fff;
+}
+
+.obective .obective-info ul,
+.obective .obective-info ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.obective .obective-info li {
+    font-weight: 400;
+    font-style: normal;
+    color: #888;
+    overflow-x: hidden;
+    font-size: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.obective .obective-info .single-info:hover ul li,
+.obective .obective-info .single-info:hover h3 {
+    color: #fff;
+}
+
+/*==== Fin bective area ====*/
+
+/* tech Section */
+
+.tech-mision {
+    background-color: #f8f9fa;
+}
+
+.tech-mision .img-techmision {
+    height: 100%;
+    max-height: 20em;
+    max-width: max-content;
+}
+
+/* ==== Fin rech Section ====*/
+
+/* Patient beneficts */
+.benefits {
+    padding-bottom: 4em;
+}
+
+.benefits .side {
+    border-radius: 35px;
+    padding: 1em;
+}
+
+.benefits #patient{
+    background-color: var(--primary-color);
+}
+
+.benefits #profesional{
+    background-color: var(--secondary-color);
+}
+
+.benefits .single-caracteristicas {
+    height: 21em !important;
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.benefits .single-caracteristicas:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.benefits .single-caracteristicas i,
+.benefits .single-information i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 4px 6px #0000002a;
+    box-shadow: 0px 4px 6px #0000002a;
+    margin-bottom: 20px;
+}
+
+.benefits #patient-icon i{
+    background-color: var(--primary-color);
+}
+
+.benefits #profesional-icon i{
+    background-color: var(--secondary-color);
+}
+
+.img-patient {
+    height: max-content;
+    width: -moz-fit-content;
+    width: min-content;
+    max-width: 90%;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* ==== Fin Patient beneficts Section ====*/
+
+/* Estilos de call to action */
+
+.call-action {
+    padding-bottom: 4em;
+   
+}
+
+.call-action .container {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+}
+
+.call-action .cta-content {
+    text-align: left;
+}
+
+.call-action .cta-image {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInRight;
+}
+
+.cta-image img {
+    height: 100%;
+    max-height: 21em;
+    max-width: max-content;
+}
+
+.call-action .cta-content h2 {
+    color: #fff;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.call-action .cta-content p {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.call-action .cta-content .button {
+    margin-top: 40px;
+}
+
+/* ==== Fin Estilos de call to action ==== */
+
+
+/* ==== Media Query ==== */
+@media (min-width: 991px) {
+    .obective-info .single-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 90%;
+    }
+
+
+}
