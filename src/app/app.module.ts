@@ -18,6 +18,9 @@ import { WhyMoodeastComponent } from './why-moodeast/why-moodeast.component';
 import { PsicologosComponent } from './psicologos/psicologos.component';
 import { MejorarSaludMentalComponent } from './mejorar-salud-mental/mejorar-salud-mental.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dudas.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -37,10 +40,15 @@ import { ComingSoonComponent } from './coming-soon/coming-soon.component';
     PsicologosComponent,
     MejorarSaludMentalComponent,
     ComingSoonComponent,
+    ResuelveTusDudasComponent,
+    
+    
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

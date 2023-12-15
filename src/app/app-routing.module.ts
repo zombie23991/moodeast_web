@@ -11,6 +11,7 @@ import { WhyMoodeastComponent } from './why-moodeast/why-moodeast.component';
 import { PsicologosComponent } from './psicologos/psicologos.component';
 import { MejorarSaludMentalComponent } from './mejorar-salud-mental/mejorar-salud-mental.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dudas.component';
 
 const routes: Routes = [
   // Ruta a la pagina home
@@ -31,6 +32,9 @@ const routes: Routes = [
 
   //Soporte y contacto (Formularios)
   { path: 'contactar', component: ContactarComponent },
+
+  //Resuelve tus dudas
+  { path: 'resuelve-tus-dudas', component: ResuelveTusDudasComponent },
 
   // Ruta para la página 404
   { path: '404', component: NotFoundComponent },

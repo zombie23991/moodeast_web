@@ -1,37 +1,38 @@
 <body>
 
-    <section id="contacto" class="pt-5   ">
-      <div class="section">
-        <div class="container">
-          <div class="row align-items-center px-4  mt-5 ">
-            <div
-              class=" col-lg-6 col-md-12 col-12 d-flex justify-content-center d-md-none d-none d-sm-block d-sm-none d-md-block d-lg-block">
-              <div class="image" data-aos="fade-right" data-aos-duration="2000">
-                <img src="https://leviathancreativestudios.com/assets/img/characters/1.png " alt="image">
-              </div>
+  <section id="contacto" class="pt-5   ">
+    <div class="section">
+      <div class="container">
+        <div class="row align-items-center px-4  mt-5 ">
+          <div
+            class=" col-lg-6 col-md-12 col-12 d-flex justify-content-center d-md-none d-none d-sm-block d-sm-none d-md-block d-lg-block">
+            <div class="image" data-aos="fade-right" data-aos-duration="2000">
+              <img src="https://leviathancreativestudios.com/assets/img/characters/1.png " alt="image">
             </div>
-            <div class="col-lg-6 col-md-12 col-12 main-form  " data-aos="fade-left"data-aos-duration="2000">
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 main-form  " data-aos="fade-left" data-aos-duration="2000">
+            <form [formGroup] = "form" (ngSubmit)="submitForm()">
               <div class="form " method="info@leviathancreativestudio.com" action="">
                 <h1>Contactanos</h1>
                 <div class="row">
                   <div class="col-12">
                     <div class="form-group">
-                      <input name="name" type="text" placeholder="Your Name" required="required">
+                      <input name="name" type="text" placeholder="Your Name" required="required" formControlName="name">
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="form-group">
-                      <input name="email" type="email" placeholder="Email" required="required">
+                      <input name="email" type="email" placeholder="Email" required="required" formControlName="email">
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="form-group">
-                      <input name="phone" type="text" placeholder="Num. Telefono" required="required">
+                      <input name="phone" type="text" placeholder="Num. Telefono" required="required" formControlName="telefono">
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
-                      <textarea name="message" placeholder="Escribe aquí tu mensaje"></textarea>
+                      <textarea name="message" placeholder="Escribe aquí tu mensaje" formControlName="message"></textarea>
                     </div>
                   </div>
                   <div class="col-12">
@@ -41,9 +42,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>

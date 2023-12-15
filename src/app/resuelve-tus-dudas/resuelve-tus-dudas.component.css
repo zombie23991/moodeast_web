@@ -1,0 +1,61 @@
+/* Estilo para cada elemento del acordeón */
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+/* Estilo para los botones del acordeón */
+.accordion-item .accordion-button {
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #eee;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+/* Estilo especial para el primer botón del acordeón */
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-right: 40px;
+}
+
+/* Estilo para el texto del botón del acordeón */
+.accordion-item .accordion-button .title {
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    float: left;
+    padding-left: 45px;
+    line-height: 25px;
+}
+
+/* Estilo para el número de serie en el botón del acordeón */
+.accordion-item .accordion-button .title .serial {
+    color: #081828;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo para el icono de expansión en el botón del acordeón */
+.accordion-item .accordion-button i {
+    font-size: 13px;
+    transition: all .3s ease;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
