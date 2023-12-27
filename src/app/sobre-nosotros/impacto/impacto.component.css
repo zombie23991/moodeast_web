@@ -100,5 +100,8 @@
   }
   
   @media (max-width: 667px) {
+    #btn{
+      width: 44vh;
+    }
     /* Agrega estilos específicos para pantallas de hasta 667px si es necesario */
   }

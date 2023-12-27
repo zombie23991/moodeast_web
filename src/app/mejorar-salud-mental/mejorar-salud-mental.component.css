@@ -218,3 +218,30 @@
         min-height: 0em;
     }
 }
+@media(max-width: 667px){
+    #title h1{
+        font-size: 30pt;
+    }
+    .call-action  h2{
+        font-size: 25pt;
+    }
+    #ayuda .single-caracteristicas{
+        /* background-color: #00000017; */
+        height: 23em !important;
+    }
+    #personalizado .single-caracteristicas{
+        /* background-color: #00000017; */
+        height: 24em !important;
+    }
+    #apoyo .single-caracteristicas{
+        /* background-color: #00000017; */
+        height: 25em !important;
+    }
+    #profesional .single-caracteristicas{
+        /* background-color: #00000017; */
+        height: 18em !important;
+    }
+    #information h2{
+        font-size: 20pt;
+    }
+}

@@ -59,3 +59,8 @@
     transform: translateY(-50%);
     right: 20px;
 }
+@media(max-width:667px){
+    h1{
+        text-align: center;
+    }
+}

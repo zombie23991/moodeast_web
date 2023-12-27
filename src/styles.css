@@ -16,7 +16,9 @@ body {
     --sb-size: 15px;
 
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
- 
+
+    
+
 }
 
 body::-webkit-scrollbar {
@@ -74,6 +76,7 @@ p {
 }
 
 /*Estilos para sections*/
+
 
 .hero {
     background-color: var(--primary-color);

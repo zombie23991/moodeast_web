@@ -19,7 +19,7 @@
 .hero-image {
     visibility: visible;
     animation-delay: 0.4s;
-    animation-name: fadeInRight;
+    /* animation-name: fadeInRight; */
 }
 
 .hero-image img {
@@ -438,4 +438,32 @@ ol {
         text-transform: capitalize;
     }
 
+}
+
+@media (max-width:667px){
+
+    #home .hero-image img{
+        height: 100%;
+        width: 115%;
+    }
+    .hero-area{
+        height: 55em;
+    }
+    #information {
+        margin-top: 15px;
+    }
+
+    #logros .container .title{
+        width: 214px;
+        text-align: center;
+    }
+    #free .single-table {
+        height: 33em !important;
+    }
+    .call-action h2{
+        font-size: 24pt;
+    }
+    .style2 .row{
+        flex-direction: column-reverse;
+    }
 }

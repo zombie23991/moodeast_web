@@ -213,4 +213,14 @@
     }
 
 
+
+}
+@media(max-width:667px){
+
+    #tech-mision img{
+        display: none;
+    }
+    h2{
+        font-size: 20pt;
+    }
 }

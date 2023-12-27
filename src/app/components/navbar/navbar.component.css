@@ -239,3 +239,11 @@ header {
         max-width: 170px; 
     }
 }
+@media(max-width:667px){
+    #navbarSupportedContent {
+        font-size: 7pt;
+        text-align: center;
+    }
+
+}
+
