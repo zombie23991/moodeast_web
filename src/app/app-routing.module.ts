@@ -12,6 +12,7 @@ import { PsicologosComponent } from './psicologos/psicologos.component';
 import { MejorarSaludMentalComponent } from './mejorar-salud-mental/mejorar-salud-mental.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dudas.component';
+import { PreciosComponent } from './precios/precios.component';
 
 const routes: Routes = [
   // Ruta a la pagina home
@@ -36,6 +37,9 @@ const routes: Routes = [
   //Resuelve tus dudas
   { path: 'resuelve-tus-dudas', component: ResuelveTusDudasComponent },
 
+  //Lista de precios
+  {path:`precios`,component:PreciosComponent},
+  
   // Ruta para la página 404
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }, // Redirige cualquier otra ruta desconocida a la página 404

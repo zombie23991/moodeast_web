@@ -23,7 +23,7 @@
 }
 
 .hero-image img {
-    max-height: auto;
+    max-height: 80vh;
     max-width: auto;
 }
 
@@ -94,7 +94,6 @@
 /* Estilos de logros */
 .nuestros-logros {
     background-color: #f8f9fa;
-    
     text-align: right;
     padding: 40px 0;
 }
@@ -133,9 +132,10 @@
 }
 
 /* Estilos de precios */
-/*.precios-table {
+
+.precios-table {
     background-color: #f9f9f9;
-}*/
+}
 
 .precios-table .single-table {
     border: 1px solid #eee;
@@ -144,7 +144,7 @@
     background-color: #fff;
     -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
-    height: 38em;
+    height: 39em;
 }
 
 .precios-table .single-table:hover {
@@ -229,7 +229,11 @@ ol {
     padding: 0px;
     list-style-type: none;
 }
+.iva{
+    color: grey;
+    margin-left: 10px;
 
+}
 
 /* Estilos de call to action */
 
@@ -440,6 +444,13 @@ ol {
 
 }
 
+@media (max-width:896px){
+
+.info-text h2{
+font-size: 25pt;} 
+}
+
+
 @media (max-width:667px){
 
     #home .hero-image img{
@@ -449,11 +460,12 @@ ol {
     .hero-area{
         height: 55em;
     }
-    #information {
-        margin-top: 15px;
+    #information .single-information  {
+        margin-top: 10px;
+        
     }
 
-    #logros .container .title{
+    #confiar .container .title{
         width: 214px;
         text-align: center;
     }

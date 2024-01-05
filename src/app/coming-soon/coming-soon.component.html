@@ -7,8 +7,7 @@
                         <h1 class="">Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo</h1>
                         <p class="p lead">Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma
                             pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.</p>
-                        <form method="GET" action="" class="newsletter-form"
-                            target="_blank">
+                        <form [formGroup]="formulario" (ngSubmit)="onSubmit()" method="GET" class="newsletter-form" target="_blank">
                             <input type="hidden" name="u" value="">
                             <input type="hidden" name="id" value="">
                             <input type="email" name="EMAIL" id="email"
@@ -30,3 +29,5 @@
         </div>
     </div>
 </section>
+
+

@@ -141,6 +141,7 @@ header {
     height: 40px;
     border-radius: 10px;
     transition: all 0.4s;
+    border: none;
 }
 
 .back-to-top i {
