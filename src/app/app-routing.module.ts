@@ -13,6 +13,7 @@ import { MejorarSaludMentalComponent } from './mejorar-salud-mental/mejorar-salu
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dudas.component';
 import { PreciosComponent } from './precios/precios.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 
 const routes: Routes = [
   // Ruta a la pagina home
@@ -40,6 +41,8 @@ const routes: Routes = [
   //Lista de precios
   {path:`precios`,component:PreciosComponent},
   
+  //Pagina de bienvendia
+  {path:`bienvenida`,component:BienvenidaComponent},
   // Ruta para la página 404
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }, // Redirige cualquier otra ruta desconocida a la página 404

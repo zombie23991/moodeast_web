@@ -11,6 +11,20 @@
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
 
+.caracteristicas .single-caracteristicas__etica {
+  height: 17em !important;
+  text-align: left;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid #eee;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+
 .caracteristicas .single-caracteristicas:hover {
   -webkit-box-shadow: 0px 3px 5px #00000017;
   box-shadow: 0px 3px 5px #00000017;
@@ -18,7 +32,7 @@
   transform: translateY(-5px);
 }
 
-.caracteristicas .single-caracteristicas i,
+.caracteristicas .single-caracteristicas i,.single-caracteristicas__etica i,
 .information .single-information i {
   height: 60px;
   width: 60px;
@@ -133,7 +147,16 @@
 
 .etica-color {
   background-color: #f8f9fa;
-  height: 200vh;
+  height: 180vh;
+}
+
+#call{
+  height: 300px;
+}
+
+#imgEtica{
+  height: 300px;
+  margin-top: 30px;
 }
 
 

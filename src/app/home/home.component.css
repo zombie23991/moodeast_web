@@ -144,7 +144,7 @@
     background-color: #fff;
     -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
-    height: 39em;
+    height: 45em !important;
 }
 
 .precios-table .single-table:hover {
@@ -191,7 +191,7 @@
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 
@@ -200,7 +200,7 @@
     font-size: 18px;
 }
 
-.precios-table .single-table .table-content .table-list li {
+.precios-table .single-table .table-content .table-list__free  .table-list li {
     font-size: 15px;
     color: gray;
     justify-content: left;
@@ -448,6 +448,12 @@ ol {
 
 .info-text h2{
 font-size: 25pt;} 
+}
+#precios .single-table{
+height: 45em !important ;    
+}
+#precios #free .single-table{
+    height: 45em !important;
 }
 
 

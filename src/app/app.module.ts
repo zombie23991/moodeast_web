@@ -22,6 +22,7 @@ import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dud
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { PreciosComponent } from './precios/precios.component';
+import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { PreciosComponent } from './precios/precios.component';
     ComingSoonComponent,
     ResuelveTusDudasComponent,
     PreciosComponent,
+    BienvenidaComponent,
     
     
   

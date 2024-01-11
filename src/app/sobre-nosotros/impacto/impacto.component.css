@@ -32,6 +32,11 @@
     margin: 50px auto 0; /* Espaciado superior en imágenes específicas */
   }
   
+  #call-action h2{
+    font-size: 25pt;
+    
+  }
+
   #apoyo img {
     height: 500px; /* Altura específica para imágenes en la sección de apoyo */
   }

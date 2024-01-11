@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://leviathancreativestudios.com/assets/img/soft-texture.png");
+    background-size: cover;
+}
+
+.linktree {
+    background-color: #fff;
+    border-radius:  20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 80vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    color: var(--primary-color);
+}
+
+.links a {
+    display: block;
+    color: white;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links a:hover {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+i{
+    font-size: 20pt;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+@media(max-width:896px){
+    .linktree{
+        background-color: transparent ;
+        box-shadow: none;
+    }
+    app-navbar{
+        display: none;
+    }
+    
+}
