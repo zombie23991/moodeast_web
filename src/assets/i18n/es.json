@@ -1,0 +1,11 @@
+{
+  "Sitetitle": "Sitio Angular Multilingüe",
+  "Name": "Nombre",
+  "NameError": "¡Seguro que debes tener un nombre!",
+  "Email": "Dirección de correo electrónico",
+  "PhoneNo": "Número de teléfono",
+  "Password": "Contraseña",
+  "Bio": "Ingrese biografía",
+  "TermsConditions": "Acepto los términos y condiciones.",
+  "Submit": "Enviar"
+}

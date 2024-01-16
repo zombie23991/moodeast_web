@@ -20,9 +20,12 @@ import { MejorarSaludMentalComponent } from './mejorar-salud-mental/mejorar-salu
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dudas.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { PreciosComponent } from './precios/precios.component';
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
+import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient,HttpClientModule } from '@angular/common/http';
+import { TraduccionComponent } from './traduccion/traduccion.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +48,7 @@ import { BienvenidaComponent } from './bienvenida/bienvenida.component';
     ResuelveTusDudasComponent,
     PreciosComponent,
     BienvenidaComponent,
+    TraduccionComponent,
     
     
   
@@ -53,9 +57,21 @@ import { BienvenidaComponent } from './bienvenida/bienvenida.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide:TranslateLoader,
+        useFactory:httpTranslateLoader,
+        deps:[HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+//AOT compilation support
+export function httpTranslateLoader(http:HttpClient){
+  return new TranslateHttpLoader(http);
+}
