@@ -6,51 +6,63 @@
             </a>
             <div class="d-flex align-items-center">
                 <a href="https://www.tiktok.com/@moodeasthealth" target="_blank"><i class="bi bi-tiktok m-2"></i></a>
-                <a href="https://www.instagram.com/moodeast_health/" target="_blank"><i class="bi bi-instagram m-2"></i></a>
+                <a href="https://www.instagram.com/moodeast_health/" target="_blank"><i
+                        class="bi bi-instagram m-2"></i></a>
             </div>
         </div>
 
         <div class="col-6 col-md-3 mb-3">
-            <h5>Recursos para profesionales</h5>
+            <h5>{{ 'footer.resourcesForProfessionals' | translate }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/why-moodeast" class="nav-link p-0 text-muted">¿Por qué MoodEast?</a></li>
-                <li class="nav-item mb-2"><a routerLink="/psicologos" class="nav-link p-0 text-muted">Psicólogos</a></li>
+                <li class="nav-item mb-2"><a routerLink="/why-moodeast" class="nav-link p-0 text-muted">{{
+                        'footer.whyMoodEast' | translate }}</a></li>
+                <li class="nav-item mb-2"><a routerLink="/psicologos" class="nav-link p-0 text-muted">{{
+                        'footer.psychologists' | translate }}</a></li>
                 <!--<li class="nav-item mb-2"><a routerLink="/blog"  class="nav-link p-0 text-muted">Blog</a></li>-->
             </ul>
         </div>
 
         <div class="col-6 col-md-3 mb-3">
             <a href="/coming-soon" class="nav-link p-0 mb-3 ">
-                <h5 class="app">Descárgate la app</h5>
+                <h5 class="app">{{ 'footer.downloadApp' | translate }}</h5>
             </a>
-            <h5>Pacientes</h5>
+            <h5>{{ 'footer.patients' | translate }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/resuelve-tus-dudas" class="nav-link p-0 text-muted">Resuelve tus dudas</a></li>
+                <li class="nav-item mb-2"><a routerLink="/resuelve-tus-dudas" class="nav-link p-0 text-muted">{{
+                        'footer.resolveYourDoubts' | translate }}</a></li>
             </ul>
 
-            <h5>Conecta</h5>
+            <h5>{{ 'footer.connect' | translate }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/contactar" class="nav-link p-0 text-muted">Contactar</a></li>
+                <li class="nav-item mb-2"><a routerLink="/contactar" class="nav-link p-0 text-muted">{{ 'footer.contact'
+                        | translate }}</a></li>
             </ul>
         </div>
 
         <div class="col-6 col-md-3 mb-3">
-            <h5>Sobre nosotros</h5>
+            <h5>{{ 'footer.aboutUs' | translate }}</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/nuestras-bases" class="nav-link p-0 text-muted">Nuestras bases</a></li>
-                <li class="nav-item mb-2"><a routerLink="/nuestro-equipo" class="nav-link p-0 text-muted">Nuestro equipo</a></li>
-                <li class="nav-item mb-2"><a routerLink="/impacto" class="nav-link p-0 text-muted">Impacto</a></li>
-                <li class="nav-item mb-2"><a href="https://leviathancreativestudios.com/" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+                <li class="nav-item mb-2"><a routerLink="/nuestras-bases" class="nav-link p-0 text-muted">{{
+                        'footer.ourBases' |
+                        translate }}</a></li>
+                <li class="nav-item mb-2"><a routerLink="/nuestro-equipo" class="nav-link p-0 text-muted">{{
+                        'footer.ourTeam' |
+                        translate }}</a></li>
+                <li class="nav-item mb-2"><a routerLink="/impacto" class="nav-link p-0 text-muted">{{ 'footer.impact' |
+                        translate }}</a></li>
+                <li class="nav-item mb-2"><a href="https://leviathancreativestudios.com/"
+                        class="nav-link p-0 text-muted">{{
+                        'footer.workWithUs' | translate }}</a></li>
             </ul>
         </div>
     </div>
 
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top sub-footer">
-        <p class="ms-4">2023 ® <a href="https://leviathancreativestudios.com/" class="LCS">Leviathan Creative Studios, S. L</a>. Todos los derechos reservados</p>
-        <ul class="nav justify-content-end me-4">
-            <li class="nav-item"><a routerLink="/politica-cookies" class="nav-link px-2 text-muted">Política de Cookies</a></li>
-            <li class="nav-item"><a routerLink="/aviso-legal" class="nav-link px-2 text-muted">Aviso legal</a></li>
-            <li class="nav-item"><a routerLink="/politica-privacidad" class="nav-link px-2 text-muted">Política de Privacidad</a></li>
-        </ul>
-    </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top sub-footer">
+            <p class="ms-4">{{'footer.copyright' | translate }}<a href="https://leviathancreativestudios.com/">{{'footer.name' | translate }}</a>{{'footer.reserved' | translate }} </p>
+            <ul class="nav justify-content-end me-4">
+                <li class="nav-item"><a routerLink="/politica-cookies" class="nav-link px-2 text-muted">{{ 'footer.cookiePolicy' | translate }}</a></li>
+                <li class="nav-item"><a routerLink="/aviso-legal" class="nav-link px-2 text-muted">{{ 'footer.legalNotice' | translate }}</a></li>
+                <li class="nav-item"><a routerLink="/politica-privacidad" class="nav-link px-2 text-muted">{{ 'footer.privacyPolicy' | translate }}</a></li>
+            </ul>
+        </div>
 </footer>

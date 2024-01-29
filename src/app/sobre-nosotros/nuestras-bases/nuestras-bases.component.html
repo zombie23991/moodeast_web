@@ -1,38 +1,40 @@
 <!-- Sección Hero -->
 <section class="hero">
 
-    <h1 data-aos="fade-up" data-aos-duration="1500">Nuestras Bases</h1>
+    <h1 data-aos="fade-up" data-aos-duration="1500">{{'bases.ourBases' | translate }}</h1>
 </section>
 
 <!-- Sección de Características -->
 <section id="caracteristicas" class="caracteristicas section bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h3 data-aos="fade-up" data-aos-duration="1400">Bases</h3>
-                    <h2 data-aos="fade-up" data-aos-duration="1500">Caracteristicas</h2>
-                    <p data-aos="fade-up" data-aos-duration="1600">
-                        En MoodEast nos basamos en la creencia fundamental de
-                        que la salud mental es un componente esencial de nuestro bienestar
-                        general. Creemos en el acceso igualitario a la atención en salud mental y en la importancia de
-                        eliminar las barreras que
-                        impiden que las personas busquen y reciban el apoyo que necesitan. Nuestras bases están
-                        cimentadas en los siguientes
-                        principios</p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h3 data-aos="fade-up" data-aos-duration="1400">{{ 'bases.bases' | translate }}</h3>
+            <h2 data-aos="fade-up" data-aos-duration="1500">{{ 'bases.features' | translate }}</h2>
+            <p data-aos="fade-up" data-aos-duration="1600">
+              {{ 'bases.baseDescription' | translate }}
+            </p>
+          </div>
         </div>
+      </div>
         <div class="row">
             <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-duration="2000">
+              <!-- Single Caracteristica -->
+              <div class="single-caracteristicas">
+                <i class="bi bi-house-heart-fill"></i>
+                <h3>{{ 'bases.accessibility' | translate }}</h3>
+                <p>{{ 'bases.accessibilityDescription' | translate }}</p>
+              </div>
+              <!-- Final Single Caracteristica -->
+            </div>
+
+            <div class="col-lg-4  col-12" data-aos="fade-up" data-aos-duration="2000">
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
-                    <i class="bi bi-house-heart-fill"></i>
-                    <h3>Accesibilidad </h3>
-                    <p>Nos esforzamos por brindar un acceso fácil y rápido a la atención en salud mental.
-                        Reconocemos la importancia de eliminar la estigmatización y las barreras financieras
-                        que a menudo dificultan el acceso a los servicios de salud mental.
-                    </p>
+                  <i class="bi bi-house-heart-fill"></i>
+                  <h3>{{ 'bases.quality' | translate }}</h3>
+                  <p>{{ 'bases.qualityDescription' | translate }}</p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -40,25 +42,9 @@
             <div class="col-lg-4  col-12" data-aos="fade-up" data-aos-duration="2000">
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
-                    <i class="bi bi-house-heart-fill"></i>
-                    <h3>Calidad </h3>
-                    <p>Estamos comprometidos con la excelencia en la atención en salud mental.
-                        Trabajamos con profesionales altamente capacitados y promovemos las mejores
-                        prácticas para garantizar que nuestros usuarios reciban un apoyo de alta calidad.</p>
-
-                </div>
-                <!-- Final Single Caracteristica -->
-            </div>
-
-            <div class="col-lg-4  col-12" data-aos="fade-up" data-aos-duration="2000">
-                <!-- Single Caracteristica -->
-                <div class="single-caracteristicas">
-                    <i class="bi bi-house-heart-fill"></i>
-                    <h3>Personalización </h3>
-                    <p>Entendemos que cada individuo es único y, por lo tanto, sus necesidades
-                        en salud mental también lo son. En MoodEast, personalizamos el apoyo y los
-                        recursos para satisfacer las necesidades específicas de cada usuario.</p>
-
+                  <i class="bi bi-house-heart-fill"></i>
+                  <h3>{{ 'bases.personalization' | translate }}</h3>
+                  <p>{{ 'bases.personalizationDescription' | translate }}</p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -70,33 +56,33 @@
     <div class="container section" data-aos="fade-up" data-aos-duration="1500">
         <div class="row ">
             <div class="col-lg-10 offset-lg-1 col-md-12 col-12 pb-5">
-                <div class="title text-center">
-                    <h2>Sabes cuales son nuestros objetivos?</h2>
-                    <p>En MoodEast, nuestros objetivos son claros.</p>
-                </div>
+              <div class="title text-center">
+                <h2>{{ 'bases.knowOurGoals' | translate }}</h2>
+                <p>{{ 'bases.ourGoalsAreClear' | translate }}</p>
+              </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
                 <div class="row text-center">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-achievement" >
-                            <i class="bi bi-balloon-heart"></i>
-                            <p>Mejorar bienestar mental</p>
-                        </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-achievement">
+                      <i class="bi bi-balloon-heart"></i>
+                      <p>{{ 'bases.improveMentalWellbeing' | translate }}</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-achievement">
-                            <i class="bi bi-award"></i>
-                            <p>Calidad</p>
-                        </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-achievement">
+                      <i class="bi bi-award"></i>
+                      <p>{{ 'bases.quality' | translate }}</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="single-achievement">
-                            <i class="bi bi-brush"></i>
-                            <p>Personalizacíon</p>
-                        </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-achievement">
+                      <i class="bi bi-brush"></i>
+                      <p>{{ 'bases.personalization' | translate }}</p>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -109,17 +95,15 @@
         <div class="container">
 
             <div class="section-title">
-                <h2 data-aos="fade-up" data-aos-duration="1500">Ética de MoodEast</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500">{{ 'bases.moodEastEthics' | translate }}</h2>
             </div>
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                     <!-- Single Caracteristica -->
                     <div class="single-caracteristicas__etica">
-                        <i class="bi bi-lock-fill"></i>
-                        <h3>Confidencialidad</h3>
-                        <p>Respetamos y protegemos la privacidad y confidencialidad de nuestros usuarios y
-                            profesionales de la salud mental. La información compartida se maneja con la máxima
-                            discreción.</p>
+                      <i class="bi bi-lock-fill"></i>
+                      <h3>{{ 'bases.confidentiality' | translate }}</h3>
+                      <p>{{ 'bases.confidentialityDescription' | translate }}</p>
                     </div>
                     <!-- Final Single Caracteristica -->
                 </div>
@@ -137,11 +121,9 @@
                 <div class="col-lg-6 " data-aos="fade-up" data-aos-duration="2000">
                     <!-- Single Caracteristica -->
                     <div class="single-caracteristicas__etica">
-                        <i class="bi bi-heart-fill"></i>
-                        <h3>Respeto</h3>
-                        <p>Fomentamos un ambiente de respeto mutuo y apoyo entre todos los miembros de
-                            nuestra comunidad, independientemente de su origen, género, orientación sexual
-                            o identidad.</p>
+                      <i class="bi bi-heart-fill"></i>
+                      <h3>{{ 'bases.respect' | translate }}</h3>
+                      <p>{{ 'bases.respectDescription' | translate }}</p>
                     </div>
                     <!-- Final Single Caracteristica -->
                 </div>
@@ -151,12 +133,9 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                     <!-- Single Caracteristica -->
                     <div class="single-caracteristicas__etica">
-                        <i class="bi bi-person-arms-up"></i>
-                        <h3>Integridad</h3>
-                        <p>Operamos con integridad y
-                            transparencia en todas nuestras interacciones y actividades. Nos comprometemos a ser
-                            honestos
-                            y éticos en todo momento</p>
+                      <i class="bi bi-person-arms-up"></i>
+                      <h3>{{ 'bases.integrity' | translate }}</h3>
+                      <p>{{ 'bases.integrityDescription' | translate }}</p>
                     </div>
                     <!-- Final Single Caracteristica -->
                 </div>
@@ -172,37 +151,29 @@
 <section id="nuestro-trabajo " class="nuestro-trabajo section">
     <div class="container">
         <div class="section-title aos-init aos-animate" data-aos="fade-up">
-            <h2>Nuestro Trabajo</h2>
-            <p>En MoodEast, trabajamos incansablemente para cumplir con nuestros objetivos y valores éticos.
-                Nuestro trabajo se centra en:</p>
+          <h2>{{ 'bases.ourWork' | translate }}</h2>
+          <p>{{ 'bases.ourWorkDescription' | translate }}</p>
         </div>
 
         <div class="row">
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="icon-box mt-5 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
                     <div class="single-caracteristicas__2">
-                        <i class="bi bi-people-fill"></i>
-                        <p>Facilitar la conexión entre usuarios y profesionales de la salud mental altamente
-                            calificados.</p>
+                      <i class="bi bi-people-fill"></i>
+                      <p>{{ 'bases.connectUsersProfessionals' | translate }}</p>
 
-                        <div class="icon-box mt-5 aos-init aos-animate">
-                            <i class="bi bi-folder"></i>
-                            <p>Proporcionar recursos de autoayuda y seguimiento personalizado para el
-                                bienestar
-                                mental.</p>
-                        </div>
-                        <div class="icon-box mt-5 aos-init aos-animate">
-                            <i class="bi bi-arrow-repeat"></i>
-                            <p>Fomentar la colaboración entre profesionales de diferentes disciplinas de
-                                salud
-                                mental.</p>
-                        </div>
-                        <div class="icon-box mt-5 aos-init aos-animate">
-                            <i class="bi bi-chat-right-text-fill"></i>
-                            <p>Contribuir a la conversación pública sobre la salud mental y la importancia
-                                de su
-                                atención.</p>
-                        </div>
+                      <div class="icon-box mt-5 aos-init aos-animate">
+                        <i class="bi bi-folder"></i>
+                        <p>{{ 'bases.provideResources' | translate }}</p>
+                      </div>
+                      <div class="icon-box mt-5 aos-init aos-animate">
+                        <i class="bi bi-arrow-repeat"></i>
+                        <p>{{ 'bases.promoteCollaboration' | translate }}</p>
+                      </div>
+                      <div class="icon-box mt-5 aos-init aos-animate">
+                        <i class="bi bi-chat-right-text-fill"></i>
+                        <p>{{ 'bases.contributePublicConversation' | translate }}</p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -220,15 +191,15 @@
         <div class="row">
             <div class="col-12 col-md-7 px-5">
                 <div class="py-4">
-                    <div>
-                        <h2 class="mb-3">Prueba MoodEast completamente
-                            <span style="color:var(--secondary-color);">gratis 30 días</span>
-                        </h2>
-                    </div>
-                    <div>
-                        <p class="h5 fw-200 my-4">Con MoodEsat puedes plataforma integral de salud mental diseñada
-                            brindar apoyo, recursos y mucho mas</p>
-                    </div><a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">Prueba Gratis</a>
+                  <div>
+                    <h2 class="mb-3">{{ 'whyMoodEast.tryMoodEast' | translate }}
+                      <span style="color:var(--secondary-color);">{{'whyMoodEast.freeFor30Days' | translate }}</span>
+                    </h2>
+                  </div>
+                  <div>
+                    <p class="h5 fw-200 my-4">{{ 'bases.moodEastDescription' | translate }}</p>
+                  </div>
+                  <a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">{{ 'bases.tryFreeButton' | translate }}</a>
                 </div>
             </div>
             <div class="col-12 col-md-5 d-none d-lg-block">

@@ -26,8 +26,7 @@ export class PrivacyModalComponent implements OnInit{
     this.marketingConsent = this.cookieService.get('marketingConsent') === 'true';
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   public dismissNotification() {
     this.cookieService.set('gdprNotificationDismissed', 'true', 365); // Configura la cookie para que expire en 365 días

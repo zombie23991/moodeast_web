@@ -1,11 +1,387 @@
 {
-  "Sitetitle": "Sitio Angular Multilingüe",
-  "Name": "Nombre",
-  "NameError": "¡Seguro que debes tener un nombre!",
-  "Email": "Dirección de correo electrónico",
-  "PhoneNo": "Número de teléfono",
-  "Password": "Contraseña",
-  "Bio": "Ingrese biografía",
-  "TermsConditions": "Acepto los términos y condiciones.",
-  "Submit": "Enviar"
+  "navbar": {
+    "downloadApp": "Descargar App",
+    "psychologists": "Psicólogos",
+    "whyMoodeast": "¿Por qué MoodEast?",
+    "improveMentalHealth": "Mejora tu salud mental"
+  },
+  "home": {
+    "title": "Tu camino hacia la salud mental y bienestar",
+    "paragraph": "Plataforma integral de salud mental diseñada para brindar apoyo, recursos y conexión con profesionales de la salud mental.",
+    "smallText": "Si quieres mejorar tu día a día emocional, descarga nuestra aplicación",
+    "increaseWellbeing": "Aumenta tu bienestar emocional",
+    "discoverResources": "Descubre una amplia gama de recursos de autoayuda, desde ejercicios de meditación hasta consejos de manejo del estrés. Encuentra herramientas que te ayudarán a mejorar tu salud mental a tu propio ritmo.",
+    "exploreBases": "Explora Nuestras Bases",
+    "findHelp": "Encuentra la ayuda que necesitas",
+    "accessTherapy": "Accede a sesiones de terapia con profesionales altamente capacitados desde la comodidad de tu hogar. Habla sobre tus preocupaciones, recibe apoyo y encuentra soluciones para mejorar tu bienestar mental.",
+    "startTherapy": "Comienza la Terapia",
+    "trustUs": "¿Por qué confiar en nosotros?",
+    "reasons": "Aquí tienes algunas razones para hacerlo",
+    "accessible": "Accesible",
+    "maximum": "Máxima",
+    "security": "Seguridad",
+    "personalized": "Personalizado",
+    "features": "Características",
+    "whatMoodEastOffers": "Lo que MoodEast puede ofrecer",
+    "discoverInnovation": "Descubre lo que lo hace una solución innovadora.",
+    "selfHelpResources": "Recursos de autoayuda",
+    "selfHelpResourcesDesc": "Accede a una amplia gama de recursos, desde consejos y ejercicios hasta artículos y meditaciones para mejorar tu bienestar mental.",
+    "personalizedTracking": "Seguimiento personalizado",
+    "personalizedTrackingDesc": "Realiza un seguimiento de tu progreso y actividades de bienestar. Recibe recomendaciones basadas en tus necesidades individuales.",
+    "progressTracking": "Seguimiento de progreso",
+    "progressTrackingDesc": "Recibe informes detallados sobre el progreso y el rendimiento para que puedas mejorar rápidamente.",
+    "supportCommunity": "Comunidad de apoyo",
+    "supportCommunityDesc": "Únete a una comunidad de personas que buscan mejorar su salud mental. Comparte experiencias y consejos.",
+    "accessAnytime": "Acceso en cualquier momento",
+    "accessAnytimeDesc": "Disfruta del acceso las 24 horas a MoodEast. Obtén apoyo cuando lo necesites, sin importar el momento o el lugar.",
+    "guaranteedConfidentiality": "Confidencialidad garantizada",
+    "guaranteedConfidentialityDesc": "Tu privacidad es nuestra prioridad. Todas tus interacciones y datos están protegidos y son confidenciales.",
+
+    "trial": {
+      "title": "Prueba MoodEast completamente gratis durante 30 días",
+      "description": "Con MoodEast, puedes acceder a una plataforma integral de salud mental diseñada para brindar apoyo, recursos y mucho más.",
+      "tryFree": "Prueba Gratis"
+    },
+    "faq": "Preguntas frecuentes",
+    "frequentQuestions": "Preguntas Frecuentes"
+  },
+  "pricing": {
+    "title": "Precios",
+    "subtitle": "Plan de precios",
+    "description": "Encuentra todo lo que necesitas para una experiencia exitosa",
+    "free": {
+      "title": "Gratis",
+      "description": "Ideal para el autocuidado",
+      "price": "0€",
+      "month": "mes",
+      "tryNow": "Pruébalo ahora",
+
+      "included": {
+        "title": "Lo que está incluido",
+        "accessToMoodEast": "Acceso a MoodEast",
+        "accessToTherapy": "Acceso a terapia"
+      },
+      "notIncluded": {
+        "title": "No incluido",
+        "pinForApp": "Pin para la aplicación",
+        "downloadPDFReports": "Descargar informes en PDF",
+        "moreEmoticons": "+ emoticonos",
+        "preferencesInPsychologistAppointments": "Preferencias en las citas con el psicólogo",
+        "unlockedContent": "Contenido desbloqueado",
+        "unlimitedEmotionalJourney": "Viaje emocional ilimitado",
+        "unlimitedDailyEmotionalRecords": "Registros emocionales diarios ilimitados"
+      }
+    },
+    "premium": {
+      "title": "Premium",
+      "description": "Perfecto para aquellos que buscan un soporte completo y personalizado",
+      "price": "3,33€",
+      "month": "mes",
+      "viewPlans": "Ver Planes",
+      "vatIncluded": "IVA incluido",
+      "included": {
+        "title": "Lo que está incluido",
+        "accessToMoodEast": "Acceso a MoodEast",
+        "accessToTherapy": "Acceso a terapia",
+        "pinForApp": "Pin para la aplicación",
+        "downloadPDFReports": "Descargar informes en PDF",
+        "moreEmoticons": "+ emoticonos",
+        "preferencesInPsychologistAppointments": "Preferencias en las citas con el psicólogo",
+        "unlockedContent": "Contenido desbloqueado",
+        "unlimitedEmotionalJourney": "Viaje emocional ilimitado",
+        "unlimitedDailyEmotionalRecords": "Registros emocionales diarios ilimitados"
+      }
+    }
+  },
+
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Preguntas Frecuentes",
+
+    "item1": {
+      "question": "¿Qué dispositivos y navegadores son compatibles con MoodEast?",
+      "answer": "MoodEast es compatible con la mayoría de los dispositivos móviles y navegadores web modernos. Puedes acceder a nuestra plataforma desde tu smartphone, tablet o computadora con conexión a Internet."
+    },
+    "item2": {
+      "question": "¿Cómo funciona la videoterapia en MoodEast y qué necesito para iniciar una sesión en línea?",
+      "answer": "Nuestra videoterapia se realiza a través de una plataforma de videoconferencia segura. Para iniciar una sesión, solo necesitas una conexión a Internet estable, una cámara web y un micrófono en tu dispositivo."
+    },
+    "item3": {
+      "question": "¿Qué medidas de seguridad se implementan para proteger la confidencialidad de las sesiones de terapia en línea?",
+      "answer": "MoodEast utiliza cifrado de extremo a extremo para todas las sesiones de videoterapia, garantizando la privacidad y seguridad de las conversaciones. También cumplimos con las regulaciones de privacidad de datos para proteger tu información personal."
+    },
+    "item4": {
+      "question": "¿Cuál es el proceso de verificación y selección para los profesionales de la salud mental en MoodEast?",
+      "answer": "Todos nuestros profesionales pasan por un riguroso proceso de selección que incluye verificación de credenciales, antecedentes y experiencia. Garantizamos que solo aquellos con las calificaciones y experiencia adecuadas trabajen con nosotros."
+    },
+    "item5": {
+      "question": "¿Cómo puedo cancelar mi suscripción o cuenta en MoodEast?",
+      "answer": "Puedes cancelar tu suscripción en cualquier momento desde la configuración de tu cuenta. Si deseas eliminar tu cuenta por completo, por favor, ponte en contacto con nuestro equipo de soporte para obtener ayuda."
+    },
+    "item6": {
+      "question1": "¿Cómo funciona MoodEast para los profesionales de la salud mental?",
+      "answer1": "MoodEast brinda a psicólogos y profesionales de la salud mental una plataforma integral para conectarse con pacientes, ofrecer tratamiento personalizado y acceder a herramientas avanzadas de seguimiento."
+    },
+    "item7": {
+      "question2": "¿Cómo puedo registrarme como psicólogo en MoodEast?",
+      "answer2": "Para registrarte como psicólogo en MoodEast, simplemente visita nuestra página de registro y sigue los pasos para crear tu perfil profesional. Una vez aprobado, puedes comenzar a atender a pacientes."
+    },
+    "item8": {
+      "question3": "¿Qué ventajas ofrece MoodEast a los psicólogos?",
+      "answer3": "MoodEast ofrece a los psicólogos acceso a una amplia base de posibles pacientes, herramientas de gestión de citas, recursos de tratamiento y la posibilidad de colaborar con otros profesionales de la salud mental."
+    },
+    "item9": {
+      "question4": "¿Puedo personalizar mis tratamientos para cada paciente?",
+      "answer4": "Sí, MoodEast te permite personalizar tus tratamientos para adaptarlos a las necesidades únicas de cada paciente. Puedes utilizar herramientas de seguimiento y recursos específicos para lograr resultados más efectivos."
+    },
+    "item10": {
+      "question5": "¿Cómo gestiono mis citas y horarios como psicólogo en MoodEast?",
+      "answer5": "MoodEast ofrece una función de gestión de citas que te permite programar, reprogramar y cancelar citas fácilmente. También puedes establecer tus propios horarios de disponibilidad."
+    },
+    "item11": {
+      "question6": "¿Cómo puedo cancelar mi suscripción o cuenta en MoodEast?",
+      "answer6": "MoodEast ofrece opciones seguras de procesamiento de pagos para que puedas recibir tarifas por tus servicios. Los pagos se realizan de manera rápida y conveniente a través de la plataforma."
+    }
+  },
+  "footer": {
+    "resourcesForProfessionals": "Recursos para Profesionales",
+    "whyMoodEast": "¿Por qué MoodEast?",
+    "psychologists": "Psicólogos",
+    "downloadApp": "Descargar la aplicación",
+    "patients": "Pacientes",
+    "resolveYourDoubts": "Resuelve tus dudas",
+    "connect": "Conectar",
+    "contact": "Contacto",
+    "aboutUs": "Acerca de nosotros",
+    "ourBases": "Nuestras bases",
+    "ourTeam": "Nuestro equipo",
+    "impact": "Impacto",
+    "workWithUs": "Trabaja con nosotros",
+    "copyright": "2023 ® ",
+    "name": "Leviathan Creative Studios, S.L.",
+    "reserved": "Todos los derechos reservados",
+    "cookiePolicy": "Política de Cookies",
+    "legalNotice": "Aviso Legal",
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "psychologists": {
+    "title": "Psicólogos",
+    "howItWorks": "Cómo Funciona para Profesionales",
+    "join": "Únete a MoodEast",
+    "discover": "Descubre cómo MoodEast puede ayudarte a hacer crecer tu práctica y brindar un mejor soporte de salud mental.",
+    "directConnection": "Conexión directa con pacientes",
+    "platformDescription": "MoodEast te proporciona una plataforma para conectarte directamente con pacientes que buscan apoyo en salud mental. Nuestra plataforma te permite ampliar tu alcance y llegar a más personas que necesitan tus servicios.",
+    "effectiveTracking": "Herramientas de seguimiento efectivas",
+    "trackingDescription": "Utiliza nuestras herramientas de seguimiento y evaluación para ofrecer un tratamiento más personalizado a tus pacientes. Obtén una vista más detallada de su progreso entre sesiones y ajusta tus terapias de manera más precisa.",
+    "facilitatePractice": "Facilitamos tu práctica",
+    "practiceDescription": "MoodEast te proporciona las herramientas necesarias para gestionar tu práctica de manera más eficiente. Desde programar citas hasta registros de pacientes, te ayudamos a simplificar la administración de tu consulta.",
+    "joinAsProfessional": "Únete a MoodEast como profesional de salud mental",
+    "expandReach": "Podrás ampliar tu alcance y brindar soporte personalizado a más personas que buscan cuidar de su salud mental.",
+    "registerAsProfessional": "Registrarse como profesional",
+    "whyPsychologist": "Por qué ser un psicólogo en MoodEast",
+    "accessToUsers": "Acceso a una Amplia Base de Usuarios",
+    "userBaseDescription": "Ten acceso a una amplia base de usuarios que buscan apoyo en salud mental. Esto significa que puedes llegar a más personas y brindar tus servicios a quienes más lo necesitan. Nuestra plataforma te conecta con usuarios de diferentes edades, antecedentes y necesidades, lo que te permite ampliar tu experiencia y habilidades.",
+    "FlexibilityComfort": "Flexibilidad y Comodidad",
+    "FlexibilityComfortDescription": "Añade flexibilidad de horarios y ubicación. Puedes elegir cuándo y dónde atender a tus pacientes, lo que te brinda la libertad de adaptar tu práctica a tus necesidades personales. Ya sea que prefieras ofrecer sesiones en línea desde la comodidad de tu hogar o en un entorno de consultorio tradicional.",
+    "supportToolsTitle": "Herramientas de Apoyo y Seguimiento",
+    "supportToolsDescription": "Tenemos una variedad de herramientas de apoyo y seguimiento que facilitan la atención de calidad, incluye recursos de autoayuda y seguimiento personalizado para los usuarios, lo que complementa tu terapia y ayuda a tus pacientes a mantener un progreso constante.",
+    "detailedProfilesTitle": "Perfiles Detallados",
+    "detailedProfilesDescription": "Obtén información completa sobre tus pacientes para adaptar tus terapias a sus necesidades específicas.",
+    "continuousMonitoringTitle": "Seguimiento Continuo",
+    "continuousMonitoringDescription": "Realiza un seguimiento más eficaz de tus pacientes entre sesiones y ajusta sus tratamientos según su progreso.",
+    "selfHelpResourcesTitle": "Recursos de Autoayuda",
+    "selfHelpResourcesDescription": "Recomienda a tus pacientes recursos de autoayuda específicos para complementar sus terapias y promover un bienestar continuo.",
+    "adaptationMethodsTitle": "Adaptación a tus Métodos",
+    "adaptationMethodsDescription": "Aplica tus enfoques terapéuticos personalizados y métodos de tratamiento de manera efectiva. Brinda una atención más individualizada a tus pacientes.",
+    "mostDemandedTitle": "Lo Más Demandado por Pacientes",
+    "discoverTitle": "Descubre lo que los pacientes buscan en MoodEast",
+    "mostDemandedDescription": "Los pacientes valoran las características que ofrecemos para mejorar su salud mental y bienestar. Aquí tienes lo que más demandan.",
+    "personalizedTherapiesTitle": "Terapias Personalizadas",
+    "personalizedAttentionTitle": "Atención Personalizada",
+    "detailedProfilesTitleImg": "Perfiles Detallados",
+    "continuousMonitoringTitleImg": "Seguimiento Continuo"
+  },
+  "whyMoodEast":{
+    "title": "¿Por qué MoodEast?",
+    "objective": "Objetivo",
+    "ourCommitment": "Nuestra Compromiso con tu Bienestar",
+    "discoverReasons": "Descubre las razones por las que MoodEast es tu compañero ideal para la salud mental y el bienestar.",
+    "accessToProfessionals": "Acceso a Profesionales de la Salud Mental",
+    "connectWithProfessionals": "Conecta con profesionales de la salud mental certificados y experimentados que están aquí para apoyarte las 24 horas del día.",
+    "personalizedWellbeing": "Bienestar Personalizado",
+    "discoverContent": "Descubre contenido y actividades de bienestar seleccionados especialmente para tus necesidades y objetivos únicos.",
+    "comprehensiveSupport": "Apoyo Integral para la Salud Mental",
+    "experienceSupport": "Experimenta un apoyo integral para la salud mental con acceso a profesionales, recursos y asistencia en caso de crisis.",
+
+    "ourMission": "Nuestra Misión",
+    "missionStatement": "En MoodEast, nuestra misión es simple pero poderosa: mejorar la salud mental y el bienestar emocional de las personas. Creemos en un enfoque integral que combine la experiencia de profesionales de la salud mental con la comodidad de la tecnología digital.",
+    "viewImpact": "Ver Impacto",
+    "innovativeTechnology": "Tecnología Innovadora",
+    "techDescription": "En MoodEast, estamos en la vanguardia de la tecnología para la salud mental. Nuestra plataforma utiliza tecnología innovadora para conectar a pacientes y profesionales de la salud mental de manera efectiva y conveniente.",
+    "viewApp": "Ver APP",
+
+    "patientBenefits": "Beneficios como Pacientes",
+    "selfHelpResources": "Recursos de Autoayuda",
+    "resourcesDescription": "En MoodEast encontrarás artículos, ejercicios de relajación, meditaciones guiadas y consejos para gestionar el estrés y la ansiedad. Puedes explorar estos recursos en tu propio tiempo y ritmo, lo que te brinda herramientas adicionales para mejorar tu salud mental y bienestar.",
+    "personalizedTracking": "Seguimiento Personalizado",
+    "trackingDescription": "Puedes realizar un seguimiento de tu bienestar emocional de manera personalizada. Nuestra plataforma te permite registrar tus estados de ánimo, emociones y actividades diarias.",
+    "moodEastMeaning": "MoodEast significa acceso rápido a la ayuda que necesitas. Dar apoyo personalizado y seguimiento de tu progreso para que puedas cuidar de tu salud mental.",
+    "ourBases": "Nuestras bases",
+    "mentalHealthProfBenefits": "Beneficios como Profesional de la salud mental",
+    "profDescription": "Para profesionales de la salud mental, ofrecemos una plataforma para llegar a más pacientes y brindar servicios de manera eficiente. Nuestra tecnología facilita la gestión de citas y el seguimiento de pacientes.",
+    "learnMore": "Saber más",
+    "connectionWithPatients": "Conexión con una Amplia Red de Pacientes",
+    "connectionDescription": "MoodEast te ofrece la oportunidad de conectarte con una amplia red de pacientes potenciales que buscan servicios de salud mental. Nuestra plataforma te permite expandir tu base de pacientes y llegar a personas que necesitan tu experiencia y apoyo.",
+    "trackingTools": "Herramientas de Seguimiento y Evaluación",
+    "toolsDescription": "MoodEast proporciona herramientas avanzadas de seguimiento y evaluación para facilitar tu trabajo con pacientes. Puedes realizar un seguimiento efectivo del progreso de tus pacientes, evaluar su bienestar y personalizar tu enfoque terapéutico para brindar un mejor cuidado de la salud mental.",
+    "tryMoodEast": "Prueba MoodEast completamente",
+    "freeFor30Days": "gratis 30 días",
+    "moodEastDescription": "Con MoodEsat puedes plataforma integral de salud mental diseñada brindar apoyo, recursos y mucho mas",
+    "freeTrial": "Prueba Gratis"
+  },
+
+  "mejoraSalud":{
+    "improveMentalHealth": "Mejorar tu Salud Mental",
+    "howToImprove": "como Mejorar tu Salud Mental",
+    "ourCommitment": "Nuestro Compromiso con tu Bienestar",
+    "discoverMoodEast": "Descubre cómo MoodEast puede ayudarte a mejorar tu salud mental y bienestar.",
+    "professionalSupport": "Apoyo Profesional",
+    "connectWithProfessionals": "Conecta con psicólogos y profesionales de la salud mental certificados que están disponibles para apoyarte las 24 horas del día.",
+    "selfHelpResources": "Recursos de Autoayuda",
+    "discoverResources": "Descubre una variedad de recursos de autoayuda disponibles en la plataforma. Esto puede incluir ejercicios de relajación, técnicas de gestión del estrés, consejos para mejorar el bienestar emocional, etc.",
+    "personalizedTracking": "Seguimiento Personalizado",
+    "explainMoodEast": "Explica cómo MoodEast ofrece seguimiento personalizado a los usuarios. Puedes hablar sobre las herramientas y características que permiten a los usuarios evaluar su progreso y recibir recomendaciones adaptadas a sus necesidades.",
+    "supportCommunity": "Comunidad de Apoyo",
+    "highlightCommunity": "Resalta la importancia de la comunidad en la mejora de la salud mental. Habla sobre cómo los usuarios pueden unirse a una comunidad de personas con intereses similares para compartir experiencias, consejos y brindarse apoyo mutuo.",
+
+    "whyCareMind": "Porque cuidar mi mente",
+    "mentalHealthBenefits": "Beneficios de la Salud Mental",
+    "discoverCare": "Descubre cómo cuidar tu salud mental puede mejorar tu calidad de vida en general.",
+    "emotionalWellbeing": "Bienestar Emocional",
+    "mentalHealthLeads": "La salud mental adecuada conduce a una mayor estabilidad emocional y una mayor capacidad para enfrentar desafíos emocionales.",
+    "healthyRelationships": "Relaciones Saludables",
+    "goodMentalHealth": "Una buena salud mental puede mejorar tus relaciones interpersonales y fortalecer tus conexiones con los demás.",
+    "resilience": "Resiliencia",
+    "solidMentalHealth": "La salud mental sólida te hace más resistente ante el estrés y las adversidades, lo que te permite recuperarte más rápido.",
+    "supportCommunity2": "Comunidad de Apoyo",
+    "careMentalHealth": "Cuidar tu salud mental puede conducir a un mayor rendimiento en el trabajo, los estudios y otras áreas de la vida.",
+
+    "tryMoodEast": "Prueba MoodEast completamente",
+    "freeTrial": "gratis 30 días",
+    "withMoodEast": "Con MoodEsat puedes plataforma integral de salud mental diseñada brindar apoyo, recursos y mucho mas",
+    "freeTrialButton": "Prueba Gratis",
+
+    "practiceMindfulness": "Practica la Atención Plena (Mindfulness)",
+    "mindfulnessDescription": "La atención plena es una técnica que te ayuda a estar presente en el momento actual y a reducir el estrés. Dedica unos minutos al día para meditar o simplemente prestar atención plena a tus actividades cotidianas. Esto puede mejorar tu claridad mental y reducir la ansiedad.",
+    "establishSleepRoutine": "Establece una Rutina de Sueño Consistente",
+    "sleepQuality": "El sueño de calidad es esencial para el bienestar mental. Intenta establecer una rutina de sueño consistente, y asegúrate de dormir lo suficiente cada noche. Un buen descanso puede mejorar tu estado de ánimo y tu capacidad para enfrentar el estrés.",
+    "maintainHealthyDiet": "Mantén una Dieta Saludable y Activa",
+    "nutritionPhysicalActivity": "La nutrición y la actividad física juegan un papel importante en la salud mental. Intenta mantener una dieta equilibrada y asegúrate de realizar ejercicio regularmente. La actividad física libera endorfinas, lo que puede mejorar tu estado de ánimo y tu bienestar general.",
+
+    "startJourney": "Comienza Tu Viaje hacia el",
+    "mentalWellbeing": "Bienestar Mental",
+    "joinCommunity": "Únete a la Comunidad de MoodEast y Prioriza Tu Salud Mental Hoy Mismo",
+    "joinNow": "Únete Ahora"
+  },
+
+  "comingSoon" :{
+  "joinOurJourney": "Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo",
+  "workingHard": "Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.",
+  "emailPlaceholder": "Pon tu email para enterarte de todo",
+  "subscribe": "Suscribirse",
+  "bePartOfDevelopment": "¡Sé Parte del Desarrollo en Kickstarter!",
+  "discoverMore": "Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast una realidad!",
+  "supportMoodEast": "Apoya a MoodEast"
+
+  },
+
+  "dudas":{
+    "resolveYourDoubts": "Resuelve tus Dudas",
+    "faq": "Faq",
+    "frequentlyAskedQuestions": "Preguntas frecuentes",
+    "whatProfessionals": "¿Qué tipo de profesionales de la salud mental están disponibles en MoodEast?",
+    "professionalsAnswer": "En MoodEast, puedes conectarte con psicólogos, psiquiatras, terapeutas y consejeros de salud mental certificados y experimentados.",
+    "howToSchedule": "¿Cómo puedo programar una cita con un profesional de la salud mental en MoodEast?",
+    "scheduleAnswer": "Puedes programar una cita en MoodEast a través de la función de programación en línea. Simplemente elige al profesional que desees y selecciona una franja horaria conveniente.",
+    "whatIfEmergency": "¿Qué sucede si tengo una emergencia de salud mental?",
+    "emergencyAnswer": "Si tienes una emergencia de salud mental, te recomendamos comunicarte de inmediato con un profesional de la salud mental o un centro de atención de crisis local. MoodEast no es una plataforma de atención de emergencia.",
+    "areServicesSafe": "¿Los servicios de MoodEast son seguros y confidenciales?",
+    "servicesAnswer": "Sí, en MoodEast tomamos muy en serio la confidencialidad y la seguridad de tus datos. Nuestra plataforma cumple con las normativas de privacidad de la información y garantiza la confidencialidad de tus conversaciones.",
+    "whatIfUnsatisfied": "¿Qué sucede si no estoy satisfecho con mi experiencia en MoodEast?",
+    "unsatisfiedAnswer": "Tu satisfacción es importante para nosotros. Si no estás satisfecho con tu experiencia, te animamos a comunicarte con nuestro equipo de soporte para que podamos abordar tus inquietudes y mejorar nuestros servicios.",
+    "isThereFreeTrial": "¿Hay un período de prueba gratuito disponible en MoodEast?",
+    "freeTrialAnswer": "Sí, ofrecemos un período de prueba gratuito para que puedas familiarizarte con nuestra plataforma y evaluar si es adecuada para tus necesidades.",
+    "isThereFreeTrial2": "¿Hay un período de prueba gratuito disponible en MoodEast?",
+    "billingInfo": "El servicio de MoodEast se factura mensualmente a través de métodos de pago seguros en línea. Puedes encontrar más información sobre los precios en nuestra sección de Tarifas.",
+    "canIUseMobile": "¿Puedo utilizar MoodEast en dispositivos móviles?",
+  "mobileUseAnswer": "Sí, MoodEast es compatible con dispositivos móviles y puedes acceder a nuestros servicios a través de la aplicación móvil o el sitio web móvil.",
+    "doYouOfferSelfHelp": "¿Ofrecen recursos de autoayuda además de las sesiones con profesionales?",
+    "selfHelpAnswer": "Sí, en MoodEast ofrecemos una amplia gama de recursos de autoayuda, que incluyen ejercicios de relajación, técnicas de gestión del estrés y consejos para mejorar el bienestar emocional."
+  },
+
+  "contact":{
+    "contactUs": "Contáctanos",
+    "yourName": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "yourMessage": "Escribe aquí tu mensaje",
+    "sendMessage": "Enviar Mensaje"
+  },
+
+  "bases":{
+    "ourBases": "Nuestras Bases",
+    "bases": "Bases",
+    "features": "Características",
+    "baseDescription": "En MoodEast nos basamos en la creencia fundamental de que la salud mental es un componente esencial de nuestro bienestar general. Creemos en el acceso igualitario a la atención en salud mental y en la importancia de eliminar las barreras que impiden que las personas busquen y reciban el apoyo que necesitan. Nuestras bases están cimentadas en los siguientes principios",
+    "accessibility": "Accesibilidad",
+    "accessibilityDescription": "Nos esforzamos por brindar un acceso fácil y rápido a la atención en salud mental. Reconocemos la importancia de eliminar la estigmatización y las barreras financieras que a menudo dificultan el acceso a los servicios de salud mental.",
+    "personalization": "Personalización",
+    "personalizationDescription": "Entendemos que cada individuo es único y, por lo tanto, sus necesidades en salud mental también lo son. En MoodEast, personalizamos el apoyo y los recursos para satisfacer las necesidades específicas de cada usuario.",
+    "quality": "Calidad",
+    "qualityDescription": "Estamos comprometidos con la excelencia en la atención en salud mental. Trabajamos con profesionales altamente capacitados y promovemos las mejores prácticas para garantizar que nuestros usuarios reciban un apoyo de alta calidad.",
+    "knowOurGoals": "¿Sabes cuáles son nuestros objetivos?",
+    "ourGoalsAreClear": "En MoodEast, nuestros objetivos son claros.",
+    "improveMentalWellbeing": "Mejorar bienestar mental",
+    "quality2": "Calidad",
+    "personalization2": "Personalización",
+    "moodEastEthics": "Ética de MoodEast",
+    "confidentiality": "Confidencialidad",
+    "confidentialityDescription": "Respetamos y protegemos la privacidad y confidencialidad de nuestros usuarios y profesionales de la salud mental. La información compartida se maneja con la máxima discreción.",
+    "respect": "Respeto",
+    "respectDescription": "Fomentamos un ambiente de respeto mutuo y apoyo entre todos los miembros de nuestra comunidad, independientemente de su origen, género, orientación sexual o identidad.",
+    "integrity": "Integridad",
+    "integrityDescription": "Operamos con integridad y transparencia en todas nuestras interacciones y actividades. Nos comprometemos a ser honestos y éticos en todo momento.",
+    "ourWork": "Nuestro Trabajo",
+    "ourWorkDescription": "En MoodEast, trabajamos incansablemente para cumplir con nuestros objetivos y valores éticos. Nuestro trabajo se centra en:",
+    "connectUsersProfessionals": "Facilitar la conexión entre usuarios y profesionales de la salud mental altamente calificados.",
+    "provideResources": "Proporcionar recursos de autoayuda y seguimiento personalizado para el bienestar mental.",
+    "promoteCollaboration": "Fomentar la colaboración entre profesionales de diferentes disciplinas de salud mental.",
+    "contributePublicConversation": "Contribuir a la conversación pública sobre la salud mental y la importancia de su atención.",
+    "tryFree": "Prueba MoodEast completamente gratis 30 días",
+    "moodEastDescription": "Con MoodEsat puedes plataforma integral de salud mental diseñada brindar apoyo, recursos y mucho mas",
+    "tryFreeButton": "Prueba Gratis"
+  },
+  "equipo":{
+    "meetTheTeam": "Conoce al increíble equipo detrás de",
+    "teamDescription": "Conoce al equipo especializado y que hace que este proyecto sea posible",
+    "founders": "Fundadores",
+    "cofounder": "Cofundador de MoodEast"
+  },
+
+  "impacto":{
+    "impact": "Impacto",
+    "impactWeHave": "Que impacto tenemos",
+    "ourPresence": "Nuestro impacto es más que una simple presencia, es la huella que dejamos en cada paso que damos.",
+    "mentalHealthImpact": "Nuestro Impacto en la Salud Mental",
+    "mentalHealthCommitment": "Comprometidos con la mejora de la salud mental y el bienestar global, nuestra plataforma ha tenido un impacto significativo en la vida de miles de usuarios y profesionales de la salud mental.",
+    "certifiedProfessionalSupport": "Apoyo Profesional Certificado",
+    "professionalSupportDescription": "Hemos conectado a miles de usuarios con psicólogos y profesionales altamente calificados. El acceso a apoyo profesional certificado es esencial para abordar los desafíos de salud mental, y estamos orgullosos de proporcionar esta conexión vital.",
+    "selfHelpResources": "Recursos de Autoayuda",
+    "selfHelpResourcesDescription": "La plataforma ofrece diversos recursos de autoayuda para gestionar el bienestar emocional, incluyendo ejercicios de relajación, técnicas de manejo del estrés y consejos para el bienestar emocional.",
+    "personalizedFollowUp": "Seguimiento Personalizado",
+    "personalizedFollowUpDescription": "En MoodEast, enfatizamos el seguimiento personalizado utilizando tecnología avanzada para evaluar el progreso de los usuarios. Ofrecemos recomendaciones específicas para mejorar la salud mental de cada usuario, reconociendo que cada viaje hacia el bienestar es único, y brindamos un apoyo individualizado en cada paso.",
+    "supportCommunity": "Comunidad de apoyo",
+    "supportCommunityDescription": "Fomentamos la construcción de una comunidad de apoyo donde los usuarios pueden conectarse con otras personas que comparten sus desafíos y objetivos. Aquí, se comparten experiencias, consejos y se brinda apoyo mutuo, creando un espacio seguro y acogedor.",
+    "freeTrial": "Prueba Gratis"
+  }
 }

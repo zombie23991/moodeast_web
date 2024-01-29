@@ -11,21 +11,36 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/psicologos']">Psicólogos</a>
+            <a class="nav-link" [routerLink]="['/psicologos']">{{ 'navbar.psychologists' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/why-moodeast']">¿Por qué MoodEast?</a>
+            <a class="nav-link" [routerLink]="['/why-moodeast']">{{ 'navbar.whyMoodeast' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/mejorar-salud-mental']">Mejorar tu salud mental</a>
+            <a class="nav-link" [routerLink]="['/mejorar-salud-mental']">{{ 'navbar.improveMentalHealth' | translate }}</a>
           </li>
           <!--<li class="nav-item">
                 <a class="nav-link" [routerLink]="['/precios']">Precios</a>
             </li>-->
+            <li class="nav-item">
+                <div class="nav">
+                  <a class="navbar-brand">
+                    {{'' | translate }}
+                  </a>
+                  <span class="form-inline">
+                    <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+                      <option *ngFor="let language of translate.getLangs()" [value]="language"
+                        [selected]="language === translate.currentLang">
+                        {{ language }}
+                      </option>
+                    </select>
+                  </span>
+                </div>
+            </li>
         </ul>
       </div>
       <button class="btn rounded-pill btn-lg  btn-download" routerLink="/coming-soon">
-        Descargar APP
+        {{ 'navbar.downloadApp' | translate }}
       </button>
     </div>
    

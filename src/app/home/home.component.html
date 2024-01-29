@@ -4,14 +4,9 @@
         <div class="row align-items-center" id="intro">
             <div class="col-lg-6 col-md-12 col-12">
                 <div class="hero-content">
-                    <h1 i18n="@@hola" class="text-white" data-aos="fade-up" data-aos-duration="1000">Tu camino hacia la salud
-                        mental y el bienestar </h1>
-                    <p class="text-white" data-aos="fade-up" data-aos-duration="1100">La plataforma integral de salud
-                        mental diseñada brindar apoyo, recursos y
-                        conexión con profesionales de la salud mental.</p>
-                    <small class="text-white" data-aos="fade-up" data-aos-duration="1200">Si quieres mejorar tu dia
-                        a dia emocional descarga nuestra app
-                    </small>
+                <h1 class="text-white" data-aos="fade-up" data-aos-duration="1000" [translate]="'home.title'"></h1>
+                <p class="text-white" data-aos="fade-up" data-aos-duration="1100" [translate]="'home.paragraph'"></p>
+                <small class="text-white" data-aos="fade-up" data-aos-duration="1200" [translate]="'home.smallText'"></small>
                     <div class="mt-2">
                         <button class="btn btn-lg  btn-light p-2 me-2" data-aos="fade-up" data-aos-duration="1350"><i
                                 class="bi bi-apple me-2"></i>App Store
@@ -40,19 +35,16 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-12">
 
-                    <div class="info-text">
-                        <div class="single-information" data-aos="fade-up" data-aos-duration="1000">
-                            <i class="bi bi-heart-pulse"></i>
-                        </div>
-                        <h2 data-aos="fade-up" data-aos-duration="1150">Incrementa tu bienestar emocional</h2>
-                        <p data-aos="fade-up" data-aos-duration="1300">Descubre una amplia gama de recursos de
-                            autoayuda, desde ejercicios de meditación hasta
-                            consejos para gestionar el estrés. Encuentra herramientas que te ayudarán a mejorar tu salud
-                            mental a tu propio ritmo.</p>
-                        <div class="button" data-aos="fade-up" data-aos-duration="1500">
-                            <a href="/nuestras-bases" class="btn btn-lg btn-primary">Explorar Nuestras Bases</a>
-                        </div>
+                <div class="info-text">
+                    <div class="single-information" data-aos="fade-up" data-aos-duration="1000">
+                        <i class="bi bi-heart-pulse"></i>
                     </div>
+                    <h2 data-aos="fade-up" data-aos-duration="1150" [translate]="'home.increaseWellbeing'"></h2>
+                    <p data-aos="fade-up" data-aos-duration="1300" [translate]="'home.discoverResources'"></p>
+                    <div class="button" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="/nuestras-bases" class="btn btn-lg btn-primary" [translate]="'home.exploreBases'"></a>
+                    </div>
+                </div>
 
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
@@ -80,14 +72,11 @@
                         <div class="single-information" data-aos="fade-up" data-aos-duration="1150">
                             <i class="bi bi-search"></i>
                         </div>
-                        <h2 data-aos="fade-up" data-aos-duration="1300">Encuentra la ayuda que necesitas</h2>
-                        <p data-aos="fade-up" data-aos-duration="1400">Accede a sesiones de terapia con profesionales
-                            de salud mental altamente capacitados desde la
-                            comodidad de tu hogar. Habla sobre tus preocupaciones, recibe apoyo y encuentra soluciones
-                            para mejorar tu bienestar mental.</p>
-                        <div class="button" data-aos="fade-up" data-aos-duration="1500">
-                            <a href="/coming-soon" class="btn btn-lg btn-primary">Comenzar Terapia</a>
-                        </div>
+                    <h2 data-aos="fade-up" data-aos-duration="1300" [translate]="'home.findHelp'"></h2>
+                    <p data-aos="fade-up" data-aos-duration="1400" [translate]="'home.accessTherapy'"></p>
+                    <div class="button" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="/coming-soon" class="btn btn-lg btn-primary" [translate]="'home.startTherapy'"></a>
+                    </div>
                     </div>
                 </div>
 
@@ -150,62 +139,58 @@
                     <img src="https://leviathancreativestudios.com/assets/img/characters/5.png" alt="Mockup">
                 </div>
             </div>
-            <div class="col-12 col-lg-9 px-5">
-                <div class="py-4">
-                    <div class="title">
-                        <h2 class="mb-3">Porque confiar en nosotros</h2>
-                        <p class="my-4">Aqui tienes algunas razones para poder hacerlo</p>
+    <div class="col-12 col-lg-9 px-5">
+        <div class="py-4">
+            <div class="title">
+                <h2 class="mb-3" [translate]="'home.trustUs'"></h2>
+                <p class="my-4" [translate]="'home.reasons'"></p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-logros">
+                        <h3 class="counter" id="myCounter"><span id="secondo1" class="countup" cup-end="100">24/7</span>
+                        </h3>
+                        <p [translate]="'home.accessible'"></p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="single-logros">
-                                <h3 class="counter" id="myCounter"><span id="secondo1" class="countup"
-                                        cup-end="100">24/7
-                                    </span></h3>
-                                <p>Accesible</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="single-logros">
-                                <h3 class="counter"><span id="secondo2" class="countup" cup-end="120">Maxima </span>
-                                </h3>
-                                <p>Seguridad</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="single-logros wow fadeInUp">
-                                <h3 class="counter"><span id="secondo3" class="countup" cup-end="125">100 </span>%</h3>
-                                <p>Personalizado</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-logros">
+                        <h3 class="counter"><span id="secondo2" class="countup" cup-end="120">Maxima</span></h3>
+                        <p [translate]="'home.security'"></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="single-logros wow fadeInUp">
+                        <h3 class="counter"><span id="secondo3" class="countup" cup-end="125">100</span>%</h3>
+                        <p [translate]="'home.personalized'"></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
         </div>
     </div>
 </section>
 <!-- caracteristicas area -->
 <section id="caracteristicas" class="caracteristicas section">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h3 data-aos="fade-up" data-aos-duration="1500">Caracteristicas</h3>
-                    <h2 data-aos="fade-up" data-aos-duration="1600">Que puede Ofrecer MoodEast</h2>
-                    <p data-aos="fade-up" data-aos-duration="1800">Descubre lo que hace que sea una solución innovadora.
-                    </p>
-                </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="section-title">
+                <h3 data-aos="fade-up" data-aos-duration="1500" [translate]="'home.features'"></h3>
+                <h2 data-aos="fade-up" data-aos-duration="1600" [translate]="'home.whatMoodEastOffers'"></h2>
+                <p data-aos="fade-up" data-aos-duration="1800" [translate]="'home.discoverInnovation'"></p>
             </div>
         </div>
+    </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000">
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-bookmarks"></i>
-                    <h3>Recursos de Autoayuda</h3>
-                    <p>Accede a una amplia gama de recursos, desde consejos y ejercicios hasta artículos y meditaciones
-                        para mejorar tu bienestar mental.</p>
+                    <h3 [translate]="'home.selfHelpResources'"></h3>
+                    <p [translate]="'home.selfHelpResourcesDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -213,9 +198,8 @@
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-eye"></i>
-                    <h3>Seguimiento Personalizado</h3>
-                    <p>Lleva un registro de tu progreso y actividades de bienestar. Obtén recomendaciones basadas en tus
-                        necesidades individuales.</p>
+                    <h3 [translate]="'home.personalizedTracking'"></h3>
+                    <p [translate]="'home.personalizedTrackingDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -223,9 +207,8 @@
                 <!-- Single Feature -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-bar-chart"></i>
-                    <h3>Seguimiento de progreso</h3>
-                    <p>Recibe reportes detallados sobre el progreso y el rendimiento para que puedas mejorar
-                        rápidamente.</p>
+                    <h3 [translate]="'home.progressTracking'"></h3>
+                    <p [translate]="'home.progressTrackingDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -233,19 +216,17 @@
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-people"></i>
-                    <h3>Comunidad de Apoyo</h3>
-                    <p>Únete a una comunidad de personas que buscan mejorar su salud mental. Comparte experiencias y
-                        consejos.</p>
+                    <h3  [translate]="'home.supportCommunity'"></h3>
+                    <p  [translate]="'home.supportCommunityDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
             <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000">
-                <!-- Single Caracteristica -->
+                <!-- Single  Caracteristica -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-clock"></i>
-                    <h3>Acceso en Cualquier Momento</h3>
-                    <p>Disfruta de acceso 24/7 a Moodeast. Obtén apoyo cuando lo necesites, sin importar la hora o el
-                        lugar.</p>
+                    <h3 [translate]="'home.accessAnytime'"></h3>
+                    <p [translate]="'home.accessAnytimeDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -253,9 +234,8 @@
                 <!-- Single Caracteristica -->
                 <div class="single-caracteristicas">
                     <i class="bi bi-lock"></i>
-                    <h3>Confidencialidad Garantizada</h3>
-                    <p>Tu privacidad es nuestra prioridad. Todas tus interacciones y datos están protegidos y son
-                        confidenciales.</p>
+                    <h3 [translate]="'home.guaranteedConfidentiality'"></h3>
+                    <p [translate]="'home.guaranteedConfidentialityDesc'"></p>
                 </div>
                 <!-- Final Single Caracteristica -->
             </div>
@@ -269,44 +249,49 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="section-title">
-                    <h3 data-aos="fade-up" data-aos-duration="1500">Precios</h3>
-                    <h2 data-aos="fade-up" data-aos-duration="1600">Plan de precios</h2>
-                    <p data-aos="fade-up" data-aos-duration="1800">Encuentra todo lo que necesitas para un experiencia
-                        exitosa</p>
-                </div>
+            <div class="section-title">
+                <h3 data-aos="fade-up" data-aos-duration="1500" [translate]="'pricing.title'"></h3>
+                <h2 data-aos="fade-up" data-aos-duration="1600" [translate]="'pricing.subtitle'"></h2>
+                <p data-aos="fade-up" data-aos-duration="1800" [translate]="'pricing.description'"></p>
+            </div>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div id="free" class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="2600">
                 <div class="single-table">
-                    <div class="table-head">
-                        <h4 class="title">Free</h4>
-                        <p>Ideal para cuidarse a uno mismo</p>
-                        <div class="precio">
-                            <h2 class="amount">0€<span class="duration">/mes</span></h2>
-                        </div>
-                        <div class="button">
-                            <a href="/coming-soon" class="btn btn-lg btn-comprar">Probar Ahora</a>
-                        </div>
+                <div class="table-head">
+                    <h4 class="title" [translate]="'pricing.free.title'"></h4>
+                    <p [translate]="'pricing.free.description'"></p>
+                    <div class="precio">
+                        <h2 class="amount">{{ 'pricing.free.price' | translate }}<span class="duration">/{{'pricing.free.month' | translate}}</span></h2>
                     </div>
+                    <div class="button">
+                        <a href="/coming-soon" class="btn btn-lg btn-comprar" [translate]="'pricing.free.tryNow'"></a>
+                    </div>
+                </div>
                     <div class="table-content">
-                        <h4 class="middle-title">Que viene incluido</h4>
+                        <h4 class="middle-title" [translate]="'pricing.free.included.title'"></h4>
                         <ul class="table-list">
-                            <li><i class="bi bi-check2-circle"></i> Acceso a Moodeast</li>
-                            <li><i class="bi bi-check2-circle"></i> Acceso a terapia</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.free.included.accessToMoodeast' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.free.included.accessToTherapy' | translate }}</li>
                         </ul>
                         <br>
-                
-                        <h4 class="middle-title">No incluido</h4>
+                        <h4 class="middle-title" [translate]="'pricing.free.notIncluded.title'"></h4>
                         <ul class="table-list__free">
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Pin para la app</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Descargar informes PDF</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> + emoticonos</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Preferencias en citas psicologos</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Contenido desbloqueado</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Viaje emocional ilimitado</li>
-                            <li class=" text-muted"><i class="bi bi-x-circle"></i> Registros emocionales diarios ilimitados</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{ 'pricing.free.notIncluded.pinForApp' | translate }}
+                            </li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{ 'pricing.free.notIncluded.downloadPDFReports' |
+                                translate }}</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{ 'pricing.free.notIncluded.moreEmoticons' | translate
+                                }}</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{
+                                'pricing.free.notIncluded.preferencesInPsychologistAppointments' | translate }}</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{ 'pricing.free.notIncluded.unlockedContent' | translate
+                                }}</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{ 'pricing.free.notIncluded.unlimitedEmotionalJourney' |
+                                translate }}</li>
+                            <li class=" text-muted"><i class="bi bi-x-circle"></i> {{
+                                'pricing.free.notIncluded.unlimitedDailyEmotionalRecords' | translate }}</li>
                         </ul>
                     </div>
                 </div>
@@ -314,31 +299,34 @@
             <div class="col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-duration="2200">
                 <div class="single-table">
                     <div class="table-head">
-                        <h4 class="title">Premium</h4>
-                        <p>Perfecto para aquellos que desean un apoyo completo y personalizado.</p>
+                        <h4 class="title" [translate]="'pricing.premium.title'"></h4>
+                        <p [translate]="'pricing.premium.description'"></p>
                         <div class="precio">
-                            <h2 class="amount">3,33€<span class="duration">/mes</span></h2>
+                            <h2 class="amount">{{ 'pricing.premium.price' | translate }}<span class="duration">/{{'pricing.premium.month' | translate}}</span></h2>
                         </div>
                         <div class="button">
-                            <a href="/precios" class="btn btn-lg btn-comprar">Ver Planes</a>
-                            <p class="iva">IVA incluido</p>
+                            <a href="/precios" class="btn btn-lg btn-comprar" [translate]="'pricing.premium.viewPlans'"></a>
+                            <p class="iva" [translate]="'pricing.premium.vatIncluded'"></p>
                         </div>
                     </div>
                     <div class="table-content">
-                        <h4 class="middle-title">Que viene incluido</h4>
+                        <h4 class="middle-title" [translate]="'pricing.premium.included.title'"></h4>
                         <ul class="table-list">
-                            <li><i class="bi bi-check2-circle"></i> Acceso a MoodEast</li>
-                            <li><i class="bi bi-check2-circle"></i> Acceso a terapia</li>
-                            <li><i class="bi bi-check2-circle"></i> Pin para la app</li>
-                            <li><i class="bi bi-check2-circle"></i> Descargar informes PDF</li>
-                            <li><i class="bi bi-check2-circle"></i> + emoticonos</li>
-                            <li><i class="bi bi-check2-circle"></i> Preferencias en citas psicologos</li>
-                            <li><i class="bi bi-check2-circle"></i> Contenido desbloqueado</li>
-                            <li><i class="bi bi-check2-circle"></i> Viaje emocional ilimitado</li>
-                            <li><i class="bi bi-check2-circle"></i> Registros emocionales diarios ilimitados</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.accessToMoodeast' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.accessToTherapy' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.pinForApp' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.downloadPDFReports' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.moreEmoticons' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.preferencesInPsychologistAppointments'
+                                | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.unlockedContent' | translate }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.unlimitedEmotionalJourney' | translate
+                                }}</li>
+                            <li><i class="bi bi-check2-circle"></i> {{ 'pricing.premium.included.unlimitedDailyEmotionalRecords' |
+                                translate }}</li>
                         </ul>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
     </div>
@@ -347,28 +335,27 @@
 
 <!-- Call to action area -->
 <section class="call-action">
-    <div class="container py-4" data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-            <div class="col-12 col-md-7 px-5">
-                <div class="py-4">
-                    <div>
-                        <h2 class="mb-3">Prueba MoodEast completamente
-                            <span style="color:var(--secondary-color);">gratis 30 días</span>
-                        </h2>
-                    </div>
-                    <div>
-                        <p class="h5 fw-200 my-4">Con MoodEsat puedes plataforma integral de salud mental diseñada
-                            brindar apoyo, recursos y mucho mas</p>
-                    </div><a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">Prueba Gratis</a>
+<div class="container py-4" data-aos="fade-up" data-aos-duration="1500">
+    <div class="row">
+        <div class="col-12 col-md-7 px-5">
+            <div class="py-4">
+                <div>
+                    <h2 class="mb-3" [translate]="'home.trial.title'"></h2>
                 </div>
+                <div>
+                    <p class="h5 fw-200 my-4" [translate]="'home.trial.description'"></p>
+                </div>
+                <a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4"
+                    [translate]="'home.trial.tryFree'"></a>
             </div>
-            <div class="col-12 col-md-5 d-none d-lg-block">
-                <div class="cta-image d-flex justify-content-center">
-                    <img src="https://leviathancreativestudios.com/assets/img/characters/1.png" alt="Mockup">
-                </div>
+        </div>
+        <div class="col-12 col-md-5 d-none d-lg-block">
+            <div class="cta-image d-flex justify-content-center">
+                <img src="https://leviathancreativestudios.com/assets/img/characters/1.png" alt="Mockup">
             </div>
         </div>
     </div>
+</div>
 </section>
 <!-- ==== Fin Call to action area ==== -->
 
@@ -378,83 +365,69 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
-                    <h3 data-aos="fade-up" data-aos-duration="1500">Faq</h3>
-                    <h2 data-aos="fade-up" data-aos-duration="1600">Preguntas frequentes</h2>
+                    <h3 data-aos="fade-up" data-aos-duration="1500">{{ 'home.faq' | translate }}</h3>
+                    <h2 data-aos="fade-up" data-aos-duration="1600">{{ 'home.frequentQuestions' | translate }}</h2>
                 </div>
             </div>
         </div>
         <div class="row" data-aos="fade-up" data-aos-duration="1800">
             <div class="col-12">
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span class="title"><span class="serial">01</span>¿Qué dispositivos y navegadores son
-                                    compatibles con Moodeast?</span>
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Moodeast es compatible con la mayoría de los dispositivos móviles y navegadores web
-                                    modernos. Puedes acceder a nuestra plataforma desde tu teléfono inteligente, tableta
-                                    o computadora con conexión a Internet.</p>
-                            </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <span class="title"><span class="serial">01</span>{{ 'faq.item1.question' | translate }}</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>{{ 'faq.item1.answer' | translate }}</p>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span class="title"><span class="serial">02</span> ¿Cómo funciona la videoterapia en
-                                    Moodeast y qué necesito para comenzar una sesión en línea?</span><i
-                                    class="lni lni-plus"></i>
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Nuestra videoterapia se realiza a través de una plataforma segura de
-                                    videoconferencia. Para comenzar una sesión, solo necesitas una conexión estable a
-                                    Internet, una cámara web y un micrófono en tu dispositivo.</p>
-                            </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="title"><span class="serial">02</span>{{ 'faq.item2.question' | translate }}<i
+                                    class="lni lni-plus"></i></span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>{{ 'faq.item2.answer' | translate }}</p>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span class="title"><span class="serial">03</span>¿Qué medidas de seguridad se
-                                    implementan para proteger la confidencialidad de las sesiones de terapia en
-                                    línea?</span><i class="lni lni-plus"></i>
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p> Moodeast utiliza cifrado de extremo a extremo para todas las sesiones de
-                                    videoterapia, lo que garantiza la privacidad y seguridad de las conversaciones.
-                                    También cumplimos con las regulaciones de privacidad de datos para proteger tu
-                                    información personal.</p>
-                            </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span class="title"><span class="serial">03</span>{{ 'faq.item3.question' | translate }}<i
+                                    class="lni lni-plus"></i></span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>{{ 'faq.item3.answer' | translate }}</p>
                         </div>
                     </div>
+                </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <span class="title"><span class="serial">04</span>¿Cuál es el proceso de verificación y
-                                    selección de profesionales de la salud mental en Moodeast?</span><i
-                                    class="lni lni-plus"></i>
+                                <span class="title"><span class="serial">04</span>{{ 'faq.item4.question' | translate }}<i class="lni lni-plus"></i></span>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Todos nuestros profesionales pasan por un riguroso proceso de selección que incluye
-                                    verificación de credenciales, antecedentes y experiencia. Garantizamos que solo
-                                    trabajen con nosotros aquellos con las calificaciones y experiencia adecuadas.</p>
+                                <p>{{ 'faq.item4.answer' | translate }}</p>
                             </div>
                         </div>
                     </div>
@@ -462,16 +435,13 @@
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <span class="title"><span class="serial">05</span>¿Cómo puedo cancelar mi suscripción o
-                                    cuenta en Moodeast?</span><i class="lni lni-plus"></i>
+                                <span class="title"><span class="serial">05</span>{{ 'faq.item5.question' | translate }}<i class="lni lni-plus"></i></span>
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>Puedes cancelar tu suscripción en cualquier momento desde la configuración de tu
-                                    cuenta. Si deseas eliminar tu cuenta por completo, comunícate con nuestro equipo de
-                                    soporte para recibir asistencia.</p>
+                                <p>{{ 'faq.item5.answer' | translate }}</p>
                             </div>
                         </div>
                     </div>

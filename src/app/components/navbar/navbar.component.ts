@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import * as $ from 'jquery';
 
 @Component({
@@ -10,7 +11,14 @@ import * as $ from 'jquery';
 export class NavbarComponent implements OnInit {
   currentView!: string;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, public translate: TranslateService) {
+    translate.addLangs(['es', 'en']);
+    translate.setDefaultLang('es');
+  }
+
+  switchLang(lang: string) {
+    this.translate.use(lang);
+  }
 
   ngOnInit() {
     this.router.events.subscribe((event) => {

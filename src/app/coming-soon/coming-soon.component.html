@@ -1,33 +1,29 @@
 <section id="newsletter" class="pt-5 newsletter">
-    <div class="section">
-        <div class="container">
-            <div class="row align-items-center px-4">
-                <div class=" col-lg-6 col-md-12 col-12 d-flex justify-content-center"><!--col-lg-6 si hay el kickstarter-->
-                    <div class="image" data-aos="fade-right" data-aos-duration="2000">
-                        <h1 class="">Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo</h1>
-                        <p class="p lead">Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma
-                            pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.</p>
-                        <form [formGroup]="formulario" (ngSubmit)="onSubmit()" method="GET" class="newsletter-form" target="_blank">
-                            <input type="hidden" name="u" value="">
-                            <input type="hidden" name="id" value="">
-                            <input type="email" name="EMAIL" id="email"
-                                placeholder="Pon tu email para enterarte de todo">
-                            <button type="submit" class="button">Suscribirse</button>
-                        </form>
-                    </div>
-                </div>
-            <div class="col-lg-6 col-md-12 col-12 main-form py-5 " data-aos="fade-left" data-aos-duration="2000">
-                    <div class="px-2 py-5 text-center kickstarter">
-                        <h2 class="">¡Sé Parte del Desarrollo en Kickstarter!</h2>
-                        <p class="p lead">Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros
-                            patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast
-                            una realidad!</p>
-                        <a href="http://kck.st/3SgrB1l" class="btn btn-lg btn-light py-3 px-5 mt-4">Apoya a MoodEast</a>
-                    </div>
-                </div>
-            </div>
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center px-4">
+        <div class="col-lg-6 col-md-12 col-12 d-flex justify-content-center">
+          <div class="image" data-aos="fade-right" data-aos-duration="2000">
+            <h1 class="">{{ 'comingSoon.joinOurJourney' | translate }}</h1>
+            <p class="p lead">{{ 'comingSoon.workingHard' | translate }}</p>
+            <form [formGroup]="formulario" (ngSubmit)="onSubmit()" method="GET" class="newsletter-form" target="_blank">
+              <input type="hidden" name="u" value="">
+              <input type="hidden" name="id" value="">
+              <input type="email" name="EMAIL" id="email" placeholder="{{ 'comingSoon.emailPlaceholder' | translate }}">
+              <button type="submit" class="button">{{ 'comingSoon.subscribe' | translate }}</button>
+            </form>
+          </div>
         </div>
+        <div class="col-lg-6 col-md-12 col-12 main-form py-5 " data-aos="fade-left" data-aos-duration="2000">
+          <div class="px-2 py-5 text-center kickstarter">
+            <h2 class="">{{ 'comingSoon.bePartOfDevelopment' | translate }}</h2>
+            <p class="p lead">{{ 'comingSoon.discoverMore' | translate }}</p>
+            <a href="http://kck.st/3SgrB1l" class="btn btn-lg btn-light py-3 px-5 mt-4">{{ 'comingSoon.supportMoodEast' | translate }}</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
