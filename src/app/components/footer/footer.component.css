@@ -49,6 +49,62 @@ footer{
     color: #9120ba;
 }
 
+.language-selector {
+  margin-left: 10px; /* Ajusta el margen según sea necesario */;
+}
+
+.form-control {
+  width: 50px; /* Ajusta el ancho según sea necesario */
+  border-radius: 5px; /* Añade bordes redondeados */
+  border-color: none;
+
+
+}
+
+
+
+select {
+  height:   40px; /* Ajusta la altura del selector */
+  background-color: white; /* Cambia el color de fondo del selector */
+  color: #333; /* Cambia el color del texto del selector */
+  border-color: white; /* Cambia el color del borde del selector */
+}
+
+select:hover {
+
+  background-color: #f5f5f5; /* Cambia el color de fondo al pasar el ratón sobre el selector */
+}
+
+
+/*Banderas*/
+.img-flag{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+
+}
+
+.flag-en {
+  display: inline-block;
+  width: 51px;
+  height: 45px;
+  background-image: url('https://moodeast.com/assets/flags/reino-unido.png');
+  background-size: cover;
+  margin-right: 10px; /* Añade un margen a la derecha */
+}
+
+.flag-es {
+  display: inline-block;
+  width: 51px;
+  height: 48px;
+  background-image: url('https://moodeast.com/assets/flags/españa.png');
+  background-size: cover;
+  margin-right: 10px; /* Añade un margen a la derecha */
+}
+
+li{
+  list-style: none;
+}
 @media (max-width: 991px) {
     .logo{
         width:10em;

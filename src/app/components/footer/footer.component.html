@@ -9,6 +9,23 @@
                 <a href="https://www.instagram.com/moodeast_health/" target="_blank"><i
                         class="bi bi-instagram m-2"></i></a>
             </div>
+          <li class="nav-item dropdown">
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img class="img-flag"
+                [src]="translate.currentLang === 'en' ? 'https://moodeast.com/assets/flags/reinounido.png' : 'https://moodeast.com/assets/flags/espana.png'"
+                alt="{{ translate.currentLang }}">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <a class="dropdown-item" href="#" *ngFor="let language of translate.getLangs()" (click)="switchLang(language)">
+                <img [src]="'https://moodeast.com/assets/flags/' + language + '.png'" alt="{{ language }}" class="img-flag"> {{
+                language | uppercase }}
+              </a>
+            </div>
+          </li>
+
+
+
         </div>
 
         <div class="col-6 col-md-3 mb-3">
