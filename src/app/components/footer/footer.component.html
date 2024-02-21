@@ -1,85 +1,88 @@
 <footer class="pt-5 ">
-    <div class="row m-3">
-        <div class="col-md-3 mb-3">
-            <a routerLink="/">
-                <img class="logo" src="https://leviathancreativestudios.com/assets/img/moodeast.png" alt="Logo">
+  <div class="row m-3">
+    <div class="col-md-3 mb-3">
+      <a routerLink="/">
+        <img class="logo" src="https://leviathancreativestudios.com/assets/img/moodeast.png" alt="Logo">
+      </a>
+      <div class="d-flex align-items-center">
+        <a href="https://www.tiktok.com/@moodeasthealth" target="_blank"><i class="bi bi-tiktok m-2"></i></a>
+        <a href="https://www.instagram.com/moodeast_health/" target="_blank"><i class="bi bi-instagram m-2"></i></a>
+        <li class="nav-item dropdown">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img class="img-flag"
+              [src]="translate.currentLang === 'reinounido' ? 'https://moodeast.com/assets/flags/reinounido.png' : 'https://moodeast.com/assets/flags/espana.png'"
+              alt="{{ translate.currentLang }}">
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <a class="dropdown-item" (click)="switchLang('espana')">
+              <img [src]="'https://moodeast.com/assets/flags/espana.png'" alt="españa" class="img-flag">España
             </a>
-            <div class="d-flex align-items-center">
-                <a href="https://www.tiktok.com/@moodeasthealth" target="_blank"><i class="bi bi-tiktok m-2"></i></a>
-                <a href="https://www.instagram.com/moodeast_health/" target="_blank"><i
-                        class="bi bi-instagram m-2"></i></a>
-            </div>
-          <li class="nav-item dropdown">
-            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <img class="img-flag"
-                [src]="translate.currentLang === 'reinounido' ? 'https://moodeast.com/assets/flags/reinounido.png' : 'https://moodeast.com/assets/flags/espana.png'"
-                alt="{{ translate.currentLang }}">
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <a class="dropdown-item" *ngFor="let language of translate.getLangs()" (click)="switchLang(language)">
-                <img [src]="'https://moodeast.com/assets/flags/' + language + '.png'" alt="{{ language }}" class="img-flag"> {{
-                language | uppercase }}
-              </a>
-            </div>
-          </li>
-
-
-
-        </div>
-
-        <div class="col-6 col-md-3 mb-3">
-            <h5>{{ 'footer.resourcesForProfessionals' | translate }}</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/why-moodeast" class="nav-link p-0 text-muted">{{
-                        'footer.whyMoodEast' | translate }}</a></li>
-                <li class="nav-item mb-2"><a routerLink="/psicologos" class="nav-link p-0 text-muted">{{
-                        'footer.psychologists' | translate }}</a></li>
-                <!--<li class="nav-item mb-2"><a routerLink="/blog"  class="nav-link p-0 text-muted">Blog</a></li>-->
-            </ul>
-        </div>
-
-        <div class="col-6 col-md-3 mb-3">
-            <a href="/coming-soon" class="nav-link p-0 mb-3 ">
-                <h5 class="app">{{ 'footer.downloadApp' | translate }}</h5>
+            <a class="dropdown-item" (click)="switchLang('reinounido')">
+              <img [src]="'https://moodeast.com/assets/flags/reinounido.png'" alt="reino unido" class="img-flag">Reino
+              Unido
             </a>
-            <h5>{{ 'footer.patients' | translate }}</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/resuelve-tus-dudas" class="nav-link p-0 text-muted">{{
-                        'footer.resolveYourDoubts' | translate }}</a></li>
-            </ul>
-
-            <h5>{{ 'footer.connect' | translate }}</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/contactar" class="nav-link p-0 text-muted">{{ 'footer.contact'
-                        | translate }}</a></li>
-            </ul>
-        </div>
-
-        <div class="col-6 col-md-3 mb-3">
-            <h5>{{ 'footer.aboutUs' | translate }}</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a routerLink="/nuestras-bases" class="nav-link p-0 text-muted">{{
-                        'footer.ourBases' |
-                        translate }}</a></li>
-                <li class="nav-item mb-2"><a routerLink="/nuestro-equipo" class="nav-link p-0 text-muted">{{
-                        'footer.ourTeam' |
-                        translate }}</a></li>
-                <li class="nav-item mb-2"><a routerLink="/impacto" class="nav-link p-0 text-muted">{{ 'footer.impact' |
-                        translate }}</a></li>
-                <li class="nav-item mb-2"><a href="https://leviathancreativestudios.com/"
-                        class="nav-link p-0 text-muted">{{
-                        'footer.workWithUs' | translate }}</a></li>
-            </ul>
-        </div>
+          </div>
+        </li>
+      </div>
     </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top sub-footer">
-            <p class="ms-4">{{'footer.copyright' | translate }}<a href="https://leviathancreativestudios.com/">{{'footer.name' | translate }}</a>{{'footer.reserved' | translate }} </p>
-            <ul class="nav justify-content-end me-4">
-                <li class="nav-item"><a routerLink="/politica-cookies" class="nav-link px-2 text-muted">{{ 'footer.cookiePolicy' | translate }}</a></li>
-                <li class="nav-item"><a routerLink="/aviso-legal" class="nav-link px-2 text-muted">{{ 'footer.legalNotice' | translate }}</a></li>
-                <li class="nav-item"><a routerLink="/politica-privacidad" class="nav-link px-2 text-muted">{{ 'footer.privacyPolicy' | translate }}</a></li>
-            </ul>
-        </div>
+    <div class="col-6 col-md-3 mb-3">
+      <h5>{{ 'footer.resourcesForProfessionals' | translate }}</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="/why-moodeast" class="nav-link p-0 text-muted">{{
+            'footer.whyMoodEast' | translate }}</a></li>
+        <li class="nav-item mb-2"><a routerLink="/psicologos" class="nav-link p-0 text-muted">{{
+            'footer.psychologists' | translate }}</a></li>
+        <!--<li class="nav-item mb-2"><a routerLink="/blog"  class="nav-link p-0 text-muted">Blog</a></li>-->
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-3 mb-3">
+      <a href="/coming-soon" class="nav-link p-0 mb-3 ">
+        <h5 class="app">{{ 'footer.downloadApp' | translate }}</h5>
+      </a>
+      <h5>{{ 'footer.patients' | translate }}</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="/resuelve-tus-dudas" class="nav-link p-0 text-muted">{{
+            'footer.resolveYourDoubts' | translate }}</a></li>
+      </ul>
+
+      <h5>{{ 'footer.connect' | translate }}</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="/contactar" class="nav-link p-0 text-muted">{{ 'footer.contact'
+            | translate }}</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-3 mb-3">
+      <h5>{{ 'footer.aboutUs' | translate }}</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a routerLink="/nuestras-bases" class="nav-link p-0 text-muted">{{
+            'footer.ourBases' |
+            translate }}</a></li>
+        <li class="nav-item mb-2"><a routerLink="/nuestro-equipo" class="nav-link p-0 text-muted">{{
+            'footer.ourTeam' |
+            translate }}</a></li>
+        <li class="nav-item mb-2"><a routerLink="/impacto" class="nav-link p-0 text-muted">{{ 'footer.impact' |
+            translate }}</a></li>
+        <li class="nav-item mb-2"><a href="https://leviathancreativestudios.com/" class="nav-link p-0 text-muted" target="_blank">{{
+            'footer.workWithUs' | translate }}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top sub-footer">
+    <p class="ms-4">{{'footer.copyright' | translate }}<a href="https://leviathancreativestudios.com/"
+        target="_blank">{{'footer.name' | translate }}</a>{{'footer.reserved' | translate }} </p>
+
+    <ul class="nav justify-content-end me-4">
+      <li class="nav-item"><a routerLink="/politica-cookies" class="nav-link px-2 text-muted">{{
+          'footer.cookiePolicy' | translate }}</a></li>
+      <li class="nav-item"><a routerLink="/aviso-legal" class="nav-link px-2 text-muted">{{ 'footer.legalNotice' |
+          translate }}</a></li>
+      <li class="nav-item"><a routerLink="/politica-privacidad" class="nav-link px-2 text-muted">{{
+          'footer.privacyPolicy' | translate }}</a></li>
+    </ul>
+  </div>
 </footer>

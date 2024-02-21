@@ -58,7 +58,7 @@
 
       "included": {
         "title": "Lo que está incluido",
-        "accessToMoodEast": "Acceso a MoodEast",
+        "accessToMoodeast": "Acceso a MoodEast",
         "accessToTherapy": "Acceso a terapia"
       },
       "notIncluded": {
@@ -81,7 +81,7 @@
       "vatIncluded": "IVA incluido",
       "included": {
         "title": "Lo que está incluido",
-        "accessToMoodEast": "Acceso a MoodEast",
+        "accessToMoodeast": "Acceso a MoodEast",
         "accessToTherapy": "Acceso a terapia",
         "pinForApp": "Pin para la aplicación",
         "downloadPDFReports": "Descargar informes en PDF",
@@ -93,7 +93,16 @@
       }
     }
   },
-
+    "list":{
+      "prices": "Precios",
+      "premiumPricingPlan": "Plan de precios premium",
+      "findEverything": "Encuentra todo lo que necesitas para una experiencia exitosa",
+      "monthly": "Mensual",
+      "perfectForThose": "Perfecto para aquellos que quieren un soporte completo y personalizado",
+      "includedVAT": "IVA incluido",
+      "semester": "Semestral",
+      "annual": "Anual"
+    },
   "faq": {
     "title": "Preguntas frecuentes",
     "subtitle": "Preguntas Frecuentes",
@@ -201,7 +210,7 @@
     "detailedProfilesTitleImg": "Perfiles Detallados",
     "continuousMonitoringTitleImg": "Seguimiento Continuo"
   },
-  "whyMoodEast":{
+  "whyMoodEast": {
     "title": "¿Por qué MoodEast?",
     "objective": "Objetivo",
     "ourCommitment": "Nuestra Compromiso con tu Bienestar",
@@ -240,7 +249,7 @@
     "freeTrial": "Prueba Gratis"
   },
 
-  "mejoraSalud":{
+  "mejoraSalud": {
     "improveMentalHealth": "Mejorar tu Salud Mental",
     "howToImprove": "como Mejorar tu Salud Mental",
     "ourCommitment": "Nuestro Compromiso con tu Bienestar",
@@ -284,18 +293,17 @@
     "joinNow": "Únete Ahora"
   },
 
-  "comingSoon" :{
-  "joinOurJourney": "Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo",
-  "workingHard": "Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.",
-  "emailPlaceholder": "Pon tu email para enterarte de todo",
-  "subscribe": "Suscribirse",
-  "bePartOfDevelopment": "¡Sé Parte del Desarrollo en Kickstarter!",
-  "discoverMore": "Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast una realidad!",
-  "supportMoodEast": "Apoya a MoodEast"
-
+  "comingSoon": {
+    "joinOurJourney": "Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo",
+    "workingHard": "Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.",
+    "emailPlaceholder": "Pon tu email para enterarte de todo",
+    "subscribe": "Suscribirse",
+    "bePartOfDevelopment": "¡Sé Parte del Desarrollo en Kickstarter!",
+    "discoverMore": "Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast una realidad!",
+    "supportMoodEast": "Apoya a MoodEast"
   },
 
-  "dudas":{
+  "dudas": {
     "resolveYourDoubts": "Resuelve tus Dudas",
     "faq": "Faq",
     "frequentlyAskedQuestions": "Preguntas frecuentes",
@@ -314,12 +322,12 @@
     "isThereFreeTrial2": "¿Hay un período de prueba gratuito disponible en MoodEast?",
     "billingInfo": "El servicio de MoodEast se factura mensualmente a través de métodos de pago seguros en línea. Puedes encontrar más información sobre los precios en nuestra sección de Tarifas.",
     "canIUseMobile": "¿Puedo utilizar MoodEast en dispositivos móviles?",
-  "mobileUseAnswer": "Sí, MoodEast es compatible con dispositivos móviles y puedes acceder a nuestros servicios a través de la aplicación móvil o el sitio web móvil.",
+    "mobileUseAnswer": "Sí, MoodEast es compatible con dispositivos móviles y puedes acceder a nuestros servicios a través de la aplicación móvil o el sitio web móvil.",
     "doYouOfferSelfHelp": "¿Ofrecen recursos de autoayuda además de las sesiones con profesionales?",
     "selfHelpAnswer": "Sí, en MoodEast ofrecemos una amplia gama de recursos de autoayuda, que incluyen ejercicios de relajación, técnicas de gestión del estrés y consejos para mejorar el bienestar emocional."
   },
 
-  "contact":{
+  "contact": {
     "contactUs": "Contáctanos",
     "yourName": "Tu Nombre",
     "email": "Correo Electrónico",
@@ -328,7 +336,7 @@
     "sendMessage": "Enviar Mensaje"
   },
 
-  "bases":{
+  "bases": {
     "ourBases": "Nuestras Bases",
     "bases": "Bases",
     "features": "Características",
@@ -361,14 +369,14 @@
     "moodEastDescription": "Con MoodEsat puedes plataforma integral de salud mental diseñada brindar apoyo, recursos y mucho mas",
     "tryFreeButton": "Prueba Gratis"
   },
-  "equipo":{
+  "equipo": {
     "meetTheTeam": "Conoce al increíble equipo detrás de",
     "teamDescription": "Conoce al equipo especializado y que hace que este proyecto sea posible",
     "founders": "Fundadores",
     "cofounder": "Cofundador de MoodEast"
   },
 
-  "impacto":{
+  "impacto": {
     "impact": "Impacto",
     "impactWeHave": "Que impacto tenemos",
     "ourPresence": "Nuestro impacto es más que una simple presencia, es la huella que dejamos en cada paso que damos.",

@@ -11,7 +11,7 @@
 .hero-area {
     background-color: var(--primary-color);
     padding-top: 5em;
-
+overflow: hidden !important;
     /* Full height */
     min-height: 100vh !important;
 }
@@ -402,11 +402,11 @@ ol {
 
     .nuestros-logros {
         background-color: #f8f9fa;
-        
+
         text-align: center;
         padding: 10px 0;
     }
-    
+
     .nuestros-logros h2 {
         font-size: 32px;
         margin-bottom: 25px;
@@ -414,7 +414,7 @@ ol {
         position: relative;
         font-weight: 800;
     }
-    
+
     .nuestros-logros p {
         /*color: white;*/
         margin: 0;
@@ -422,20 +422,20 @@ ol {
         font-size: 15px;
         line-height: 24px;
     }
-    
+
     .nuestros-logros .single-logros {
         margin-top: 50px;
         text-align: center;
         padding: 0px 10px;
     }
-    
+
     .nuestros-logros .single-logros h3 {
         font-size: 45px;
         font-weight: 800;
         display: block;
         margin-bottom: 5px;
     }
-    
+
     .nuestros-logros .single-logros p {
         font-size: 25px;
         font-weight: 500;
@@ -447,10 +447,10 @@ ol {
 @media (max-width:896px){
 
 .info-text h2{
-font-size: 25pt;} 
+font-size: 25pt;}
 }
 #precios .single-table{
-height: 45em !important ;    
+height: 45em !important ;
 }
 #precios #free .single-table{
     height: 45em !important;
@@ -468,7 +468,7 @@ height: 45em !important ;
     }
     #information .single-information  {
         margin-top: 10px;
-        
+
     }
 
     #confiar .container .title{

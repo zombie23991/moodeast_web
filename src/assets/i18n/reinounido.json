@@ -92,8 +92,18 @@
         "unlimitedDailyEmotionalRecords": "Unlimited daily emotional records"
       }
     }
-  },
 
+  },
+"list":{
+    "prices": "Prices",
+    "premiumPricingPlan": "Premium pricing plan",
+    "findEverything": "Find everything you need for a successful experience",
+    "monthly": "Monthly",
+    "perfectForThose": "Perfect for those who want full and personalized support",
+    "includedVAT": "IVA included",
+    "semester": "Semester",
+    "annual ": "Annual"
+},
   "faq": {
     "title": "Faq",
     "subtitle": "Frequent Questions",
