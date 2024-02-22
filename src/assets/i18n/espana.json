@@ -74,7 +74,7 @@
     },
     "premium": {
       "title": "Premium",
-      "description": "Perfecto para aquellos que buscan un soporte completo y personalizado",
+      "description": " Únete ahora y aprovecha al máximo cada día con nuestra suscripción mensual.",
       "price": "3,33€",
       "month": "mes",
       "viewPlans": "Ver Planes",
@@ -98,7 +98,9 @@
       "premiumPricingPlan": "Plan de precios premium",
       "findEverything": "Encuentra todo lo que necesitas para una experiencia exitosa",
       "monthly": "Mensual",
-      "perfectForThose": "Perfecto para aquellos que quieren un soporte completo y personalizado",
+      "perfectForThose": "Únete ahora y aprovecha al máximo cada día con nuestra suscripción mensual.",
+      "perfectForThose2": "Con nuestra suscripción semestral, disfrutarás de todas las ventajas durante más tiempo y a un precio aún más conveniente.",
+      "perfectForThose3": " Con nuestra suscripción anual, tendrás acceso ilimitado a todas nuestras funciones por un precio increíblemente bajo",
       "includedVAT": "IVA incluido",
       "semester": "Semestral",
       "annual": "Anual"

@@ -95,14 +95,16 @@
 
   },
 "list":{
-    "prices": "Prices",
-    "premiumPricingPlan": "Premium pricing plan",
-    "findEverything": "Find everything you need for a successful experience",
-    "monthly": "Monthly",
-    "perfectForThose": "Perfect for those who want full and personalized support",
-    "includedVAT": "IVA included",
-    "semester": "Semester",
-    "annual ": "Annual"
+  "prices": "Prices",
+  "premiumPricingPlan": "Premium pricing plan",
+  "findEverything": "Find everything you need for a successful experience",
+  "monthly": "Monthly",
+  "perfectForThose": "Join now and make the most of every day with our monthly subscription.",
+  "perfectForThose2": "With our semi-annual subscription, you will enjoy all the benefits for longer and at an even more convenient price.",
+  "perfectForThose3": "With our annual subscription, you'll have unlimited access to all our features for an incredibly low price",
+  "includedVAT": "IVA included",
+  "semester": "Semester",
+  "annual ": "Annual"
 },
   "faq": {
     "title": "Faq",
