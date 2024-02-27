@@ -14,6 +14,7 @@
 overflow: hidden !important;
     /* Full height */
     min-height: 100vh !important;
+    color: black;
 }
 
 .hero-image {
@@ -82,14 +83,13 @@ overflow: hidden !important;
 
 .conatiner-mockup {
     padding: 50px;
+    margin-left: 150px;
+    width: 300px;
+    height: 500px;
+
 }
 
-.mockup1,
-.mockup2 {
-    vertical-align: middle;
-    width: 25em;
-    height: auto;
-}
+
 
 /* Estilos de logros */
 .nuestros-logros {
@@ -277,6 +277,10 @@ ol {
 
 /* Estilos FAQ area */
 
+.section-faq{
+  padding-bottom: 100px;
+  position: relative;
+}
 .accordion-item {
     margin-bottom: 20px;
 }
@@ -379,6 +383,65 @@ ol {
     border: 1px solid var(--accent-secondary-color);
 }
 
+/*Paleta de colores*/
+
+
+/* Estilos para el carrusel */
+.color-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+.colores{
+  display: flex;
+  flex-direction: column;
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 70vh;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+.carousel img {
+  scroll-snap-align: start;
+  display: none;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  overflow:  hidden !important;
+}
+
+.carousel img.activeImage {
+  display: block;
+}
+.section-colors{
+    padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+  font-style:italic;
+}
+
+.Mockup-img img {
+  min-width: 100px;
+  max-width: 50%;
+  height: auto;
+}
+.Mockup-img2 img{
+min-width: 100px;
+max-width: 30%;
+height: auto;
+
+}
+
 /* ==== Media Query ==== */
 @media (max-width: 992px) {
     .precios-table .single-table {
@@ -447,15 +510,46 @@ ol {
 @media (max-width:896px){
 
 .info-text h2{
-font-size: 25pt;}
+font-size: 25pt;
 }
+
 #precios .single-table{
 height: 45em !important ;
 }
 #precios #free .single-table{
     height: 45em !important;
 }
+.carousel img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    float: left;
+}
 
+#information img{
+  margin-top: 20px;
+ height: auto;
+ width: auto;
+ object-fit: contain;
+
+}
+#mockup2 img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ height: auto;
+ width: auto;
+ object-fit: contain;
+
+}
+  #colors {
+    padding-bottom: 0;
+  }
+#mockupsColors img{
+  height:70%;
+  width: auto;
+  object-fit: contain;
+}
+}
 
 @media (max-width:667px){
 

@@ -92,20 +92,19 @@
         "unlimitedDailyEmotionalRecords": "Unlimited daily emotional records"
       }
     }
-
   },
-"list":{
-  "prices": "Prices",
-  "premiumPricingPlan": "Premium pricing plan",
-  "findEverything": "Find everything you need for a successful experience",
-  "monthly": "Monthly",
-  "perfectForThose": "Join now and make the most of every day with our monthly subscription.",
-  "perfectForThose2": "With our semi-annual subscription, you will enjoy all the benefits for longer and at an even more convenient price.",
-  "perfectForThose3": "With our annual subscription, you'll have unlimited access to all our features for an incredibly low price",
-  "includedVAT": "IVA included",
-  "semester": "Semester",
-  "annual ": "Annual"
-},
+  "list": {
+    "prices": "Prices",
+    "premiumPricingPlan": "Premium pricing plan",
+    "findEverything": "Find everything you need for a successful experience",
+    "monthly": "Monthly",
+    "perfectForThose": "Join now and make the most of every day with our monthly subscription.",
+    "perfectForThose2": "With our semi-annual subscription, you will enjoy all the benefits for longer and at an even more convenient price.",
+    "perfectForThose3": "With our annual subscription, you'll have unlimited access to all our features for an incredibly low price",
+    "includedVAT": "IVA included",
+    "semester": "Semester",
+    "annual ": "Annual"
+  },
   "faq": {
     "title": "Faq",
     "subtitle": "Frequent Questions",
@@ -177,7 +176,7 @@
     "privacyPolicy": "Privacy Policy"
   },
   "psychologists": {
-    "title": "Psychologists",
+    "title": "Profesionals",
     "howItWorks": "How It Works for Professionals",
     "join": "Join MoodEast",
     "discover": "Discover how MoodEast can help you grow your practice and provide better mental health support.",
@@ -217,8 +216,7 @@
     "resourcesDescription": "At MoodEast, you will find articles, relaxation exercises, guided meditations, and tips for managing stress and anxiety. You can explore these resources at your own time and pace, which gives you additional tools to improve your mental health and wellbeing."
   },
 
-
-  "whyMoodEast":{
+  "whyMoodEast": {
     "title": "Why MoodEast?",
     "objective": "Objective",
     "ourCommitment": "Our Commitment to Your Wellbeing",
@@ -256,7 +254,7 @@
     "freeTrial": "Free Trial"
   },
 
-  "mejoraSalud":{
+  "mejoraSalud": {
     "improveMentalHealth": "Improve Your Mental Health",
     "howToImprove": "How to Improve Your Mental Health",
     "ourCommitment": "Our Commitment to Your Well-being",
@@ -300,7 +298,7 @@
     "joinNow": "Join Now"
   },
 
-  "comingSoon":{
+  "comingSoon": {
     "joinOurJourney": "Join Our Journey: MoodEast in Full Development",
     "workingHard": "We are working hard on the development of MoodEast, a pioneering platform in mental health, and we want you to be the first to know all our news.",
     "emailPlaceholder": "Put your email to find out everything",
@@ -310,7 +308,7 @@
     "supportMoodEast": "Support MoodEast"
   },
 
-  "dudas" : {
+  "dudas": {
     "resolveYourDoubts": "Resolve Your Doubts",
     "faq": "FAQ",
     "frequentlyAskedQuestions": "Frequently Asked Questions",
@@ -329,12 +327,12 @@
     "isThereFreeTrial2": "Is there a free trial period available at MoodEast?",
     "billingInfo": "MoodEast's service is billed monthly through secure online payment methods. You can find more information about pricing in our Rates section.",
     "canIUseMobile": "Can I use MoodEast on mobile devices?",
-  "mobileUseAnswer": "Yes, MoodEast is compatible with mobile devices and you can access our services through the mobile app or the mobile website.",
+    "mobileUseAnswer": "Yes, MoodEast is compatible with mobile devices and you can access our services through the mobile app or the mobile website.",
     "doYouOfferSelfHelp": "Do you offer self-help resources in addition to sessions with professionals?",
     "selfHelpAnswer": "Yes, at MoodEast we offer a wide range of self-help resources, which include relaxation exercises, stress management techniques, and tips to improve emotional well-being."
   },
 
-  "contact":{
+  "contact": {
     "contactUs": "Contact Us",
     "yourName": "Your Name",
     "email": "Email",
@@ -343,7 +341,7 @@
     "sendMessage": "Send Message"
   },
 
-  "bases":{
+  "bases": {
     "ourBases": "Our Bases",
     "bases": "Bases",
     "features": "Features",
@@ -376,14 +374,14 @@
     "moodEastDescription": "With MoodEast you can use an integral mental health platform designed to provide support, resources and much more",
     "tryFreeButton": "Free Trial"
   },
-  "equipo":{
+  "equipo": {
     "meetTheTeam": "Meet the incredible team behind",
     "teamDescription": "Meet the specialized team that makes this project possible",
     "founders": "Founders",
     "cofounder": "Co-founder of MoodEast"
   },
 
-  "impacto":{
+  "impacto": {
     "impact": "Impact",
     "impactWeHave": "What impact we have",
     "ourPresence": "Our impact is more than a simple presence, it is the footprint we leave with every step we take.",

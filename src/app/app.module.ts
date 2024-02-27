@@ -26,6 +26,10 @@ import { TranslateLoader,TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient,HttpClientModule } from '@angular/common/http';
 import { TraduccionComponent } from './traduccion/traduccion.component';
+import { BlogComponent } from './blog/blog.component';
+import { EntradaBlogComponent } from './entrada-blog/entrada-blog.component';
+import { ProfesionalesComponent } from './profesionales/profesionales.component';
+
 
 @NgModule({
   declarations: [
@@ -49,15 +53,19 @@ import { TraduccionComponent } from './traduccion/traduccion.component';
     PreciosComponent,
     BienvenidaComponent,
     TraduccionComponent,
-    
-    
-  
+    BlogComponent,
+    EntradaBlogComponent,
+    ProfesionalesComponent,
+
+
+
   ],
-  imports: [  
+  imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
+
     TranslateModule.forRoot({
       loader:{
         provide:TranslateLoader,

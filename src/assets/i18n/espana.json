@@ -1,7 +1,7 @@
 {
   "navbar": {
     "downloadApp": "Descargar App",
-    "psychologists": "Psicólogos",
+    "psychologists": "Profesionales",
     "whyMoodeast": "¿Por qué MoodEast?",
     "improveMentalHealth": "Mejora tu salud mental"
   },
@@ -93,18 +93,18 @@
       }
     }
   },
-    "list":{
-      "prices": "Precios",
-      "premiumPricingPlan": "Plan de precios premium",
-      "findEverything": "Encuentra todo lo que necesitas para una experiencia exitosa",
-      "monthly": "Mensual",
-      "perfectForThose": "Únete ahora y aprovecha al máximo cada día con nuestra suscripción mensual.",
-      "perfectForThose2": "Con nuestra suscripción semestral, disfrutarás de todas las ventajas durante más tiempo y a un precio aún más conveniente.",
-      "perfectForThose3": " Con nuestra suscripción anual, tendrás acceso ilimitado a todas nuestras funciones por un precio increíblemente bajo",
-      "includedVAT": "IVA incluido",
-      "semester": "Semestral",
-      "annual": "Anual"
-    },
+  "list": {
+    "prices": "Precios",
+    "premiumPricingPlan": "Plan de precios premium",
+    "findEverything": "Encuentra todo lo que necesitas para una experiencia exitosa",
+    "monthly": "Mensual",
+    "perfectForThose": "Únete ahora y aprovecha al máximo cada día con nuestra suscripción mensual.",
+    "perfectForThose2": "Con nuestra suscripción semestral, disfrutarás de todas las ventajas durante más tiempo y a un precio aún más conveniente.",
+    "perfectForThose3": " Con nuestra suscripción anual, tendrás acceso ilimitado a todas nuestras funciones por un precio increíblemente bajo",
+    "includedVAT": "IVA incluido",
+    "semester": "Semestral",
+    "annual": "Anual"
+  },
   "faq": {
     "title": "Preguntas frecuentes",
     "subtitle": "Preguntas Frecuentes",
@@ -157,11 +157,11 @@
   "footer": {
     "resourcesForProfessionals": "Recursos para Profesionales",
     "whyMoodEast": "¿Por qué MoodEast?",
-    "psychologists": "Psicólogos",
+    "psychologists": "Professionales",
     "downloadApp": "Descargar la aplicación",
     "patients": "Pacientes",
     "resolveYourDoubts": "Resuelve tus dudas",
-    "connect": "Conectar",
+    "connect": "Contactanos",
     "contact": "Contacto",
     "aboutUs": "Acerca de nosotros",
     "ourBases": "Nuestras bases",
@@ -176,7 +176,7 @@
     "privacyPolicy": "Política de Privacidad"
   },
   "psychologists": {
-    "title": "Psicólogos",
+    "title": "Profesionales",
     "howItWorks": "Cómo Funciona para Profesionales",
     "join": "Únete a MoodEast",
     "discover": "Descubre cómo MoodEast puede ayudarte a hacer crecer tu práctica y brindar un mejor soporte de salud mental.",
@@ -186,10 +186,10 @@
     "trackingDescription": "Utiliza nuestras herramientas de seguimiento y evaluación para ofrecer un tratamiento más personalizado a tus pacientes. Obtén una vista más detallada de su progreso entre sesiones y ajusta tus terapias de manera más precisa.",
     "facilitatePractice": "Facilitamos tu práctica",
     "practiceDescription": "MoodEast te proporciona las herramientas necesarias para gestionar tu práctica de manera más eficiente. Desde programar citas hasta registros de pacientes, te ayudamos a simplificar la administración de tu consulta.",
-    "joinAsProfessional": "Únete a MoodEast como profesional de salud mental",
+    "joinAsProfessional": "Únete a MoodEast como profesional de la salud mental",
     "expandReach": "Podrás ampliar tu alcance y brindar soporte personalizado a más personas que buscan cuidar de su salud mental.",
     "registerAsProfessional": "Registrarse como profesional",
-    "whyPsychologist": "Por qué ser un psicólogo en MoodEast",
+    "whyPsychologist": "Que Beneficios Ofrece MoodEast a los Profesionales",
     "accessToUsers": "Acceso a una Amplia Base de Usuarios",
     "userBaseDescription": "Ten acceso a una amplia base de usuarios que buscan apoyo en salud mental. Esto significa que puedes llegar a más personas y brindar tus servicios a quienes más lo necesitan. Nuestra plataforma te conecta con usuarios de diferentes edades, antecedentes y necesidades, lo que te permite ampliar tu experiencia y habilidades.",
     "FlexibilityComfort": "Flexibilidad y Comodidad",
@@ -257,7 +257,7 @@
     "ourCommitment": "Nuestro Compromiso con tu Bienestar",
     "discoverMoodEast": "Descubre cómo MoodEast puede ayudarte a mejorar tu salud mental y bienestar.",
     "professionalSupport": "Apoyo Profesional",
-    "connectWithProfessionals": "Conecta con psicólogos y profesionales de la salud mental certificados que están disponibles para apoyarte las 24 horas del día.",
+    "connectWithProfessionals": "Conecta con profesionales de la salud mental certificados que están disponibles para apoyarte las 24 horas del día.",
     "selfHelpResources": "Recursos de Autoayuda",
     "discoverResources": "Descubre una variedad de recursos de autoayuda disponibles en la plataforma. Esto puede incluir ejercicios de relajación, técnicas de gestión del estrés, consejos para mejorar el bienestar emocional, etc.",
     "personalizedTracking": "Seguimiento Personalizado",

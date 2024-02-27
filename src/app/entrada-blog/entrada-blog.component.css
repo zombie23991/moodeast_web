@@ -1,0 +1,255 @@
+/*==== Blog ====*/
+
+/*Header*/
+.blog-single {
+  padding-top: 5em;
+  padding-bottom: 30px;
+}
+
+.blog-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-img img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.cat-box {
+  height: 3em;
+}
+
+.blog-img .categoria-entrada {
+  color: #ffffff;
+  padding: 5px 15px;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+  background-color: var(--primary-color);
+
+  z-index: 2;
+}
+
+.blog-img .categoria-entrada:hover {
+  font-size: 17px;
+}
+
+
+/*Tabla de contenido*/
+#tablaContenido {
+  font-size: 18px;
+  margin-left: 0.25em;
+}
+
+/*Contenido del blog*/
+.entradaContent a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.entradaContent img {
+  max-width: 100%;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+/*Entradas relacionadas*/
+.section {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  position: relative;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h3 {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.section-title h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  line-height: 42px;
+  text-transform: capitalize;
+  position: relative;
+  font-weight: 800;
+}
+
+#entradasRelacionadas {
+  background-color: #f2f6fc;
+}
+
+#entradasRelacionadas .title h1 {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+#entradasRelacionadas .blog-grid {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#entradasRelacionadas .blog-grid .blog-img {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#entradasRelacionadas .blog-img {
+  height: 380px;
+  overflow: hidden;
+}
+
+#entradasRelacionadas img {
+  /*Hacer que la imagen no se distrosiones y coga todo el amplio del div*/
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+
+  /*hacer que la imagen se centre*/
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  z-index: 1;
+}
+
+
+#entradasRelacionadas .blog-grid .blog-img .date {
+  position: absolute;
+  background: var(--accent-color);
+  color: #ffffff;
+  padding: 8px 15px;
+  left: 0;
+  top: 10px;
+  font-size: 14px;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  z-index: 2;
+}
+
+#entradasRelacionadas .blog-grid .blog-img .category {
+  position: absolute;
+  color: #ffffff;
+  padding: 5px 15px;
+  right: 10px;
+  top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+
+  z-index: 2;
+}
+
+#entradasRelacionadas .blog-grid .blog-img .category:hover {
+  font-size: 17px;
+}
+
+#entradasRelacionadas .blog-grid .blog-info {
+  /*box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);*/
+  border-radius: 15px;
+  background: #ffffff;
+  padding: 20px;
+  margin: -30px 20px 0;
+  position: relative;
+  height: 16.5em;
+
+  z-index: 3;
+}
+
+#entradasRelacionadas .blog-grid .blog-info h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+#entradasRelacionadas .blog-grid .blog-info h5 a {
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#entradasRelacionadas .blog-grid .blog-info h5 a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+#entradasRelacionadas .blog-grid .blog-info p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+/*Colores de ejemplo para categorias*/
+#cat-1{
+  background-color: var(--primary-color);
+  }
+
+  #cat-2{
+      background-color: var(--secondary-color);
+  }
+
+  #cat-3{
+      background-color: red;
+  }
+
+
+/*Newsletter*/
+  .newslatter-card {
+    background-color: var(--primary-color);
+    border-radius: 25px;
+  }
+
+  .newslatter-card h2{
+    font-size: 54px;
+    margin-bottom: 25px;
+    line-height: 65px;
+    position: relative;
+    font-weight: 800;
+  }
+
+  .newslatter-card p{
+    color: #f2f6fc !important;
+  }
+
+  .newslatter-img{
+    max-width: 80%;
+  }
+
+  .btn-newsletter {
+    font-size: 1.25em;
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 15px !important;
+    padding: 0.5em 1.2em;
+  }

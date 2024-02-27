@@ -1,0 +1,149 @@
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.gray-bg {
+    background-color: #f2f6fc;
+}
+
+/* Blog
+---------------------*/
+.title h1 {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.blog-grid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-grid .blog-img {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.blog-img {
+    height: 380px;
+    overflow: hidden;
+}
+
+img {
+    /*Hacer que la imagen no se distrosiones y coga todo el amplio del div*/
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+
+    /*hacer que la imagen se centre*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    z-index: 1;
+}
+
+
+.blog-grid .blog-img .date {
+    position: absolute;
+    background: var(--accent-color);
+    color: #ffffff;
+    padding: 8px 15px;
+    left: 0;
+    top: 10px;
+    font-size: 14px;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    z-index: 2;
+}
+
+.blog-grid .blog-img .category {
+    position: absolute;
+    color: #ffffff;
+    padding: 5px 15px;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: font-size 0.5s;
+
+    z-index: 2;
+}
+
+.blog-grid .blog-img .category:hover {
+    font-size: 17px;
+}
+
+/*Colores de ejemplo para categorias*/
+#cat-1{
+background-color: var(--primary-color);
+}
+
+#cat-2{
+    background-color: var(--secondary-color);
+}
+
+#cat-3{
+    background-color: red;
+}
+
+#cat-4{
+    background-color: purple;
+}
+
+#cat-5{
+    background-color: green;
+}
+.blog-grid .blog-info {
+    /*box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);*/
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 20px;
+    margin: -30px 20px 0;
+    position: relative;
+
+    height: 16.5em;
+
+    z-index: 3;
+}
+
+.blog-grid .blog-info h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.blog-grid .blog-info h5 a {
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.blog-grid .blog-info h5 a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+
+
+.blog-grid .blog-info p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+} 

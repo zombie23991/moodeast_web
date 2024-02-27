@@ -15,6 +15,9 @@ import { ResuelveTusDudasComponent } from './resuelve-tus-dudas/resuelve-tus-dud
 import { PreciosComponent } from './precios/precios.component';
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 import { TraduccionComponent } from './traduccion/traduccion.component';
+import { BlogComponent } from './blog/blog.component';
+import { EntradaBlogComponent } from './entrada-blog/entrada-blog.component';
+import { ProfesionalesComponent } from './profesionales/profesionales.component';
 
 const routes: Routes = [
   // Ruta a la pagina home
@@ -41,13 +44,20 @@ const routes: Routes = [
 
   //Lista de precios
   {path:`precios`,component:PreciosComponent},
-  
+
   //Pagina de bienvendia
   {path:`bienvenida`,component:BienvenidaComponent},
 
   //Traduccion
   {path:`traduccion`,component:TraduccionComponent},
-  
+
+  //Blog
+  // {path:`blog`,component:BlogComponent},
+  // {path:`entrada-blog`,component:EntradaBlogComponent},
+
+  //Profesionales
+  {path:`profesionales`,component:ProfesionalesComponent},
+
   // Ruta para la página 404
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }, // Redirige cualquier otra ruta desconocida a la página 404
