@@ -441,6 +441,11 @@ max-width: 30%;
 height: auto;
 
 }
+#mockupsColors img{
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
 
 /* ==== Media Query ==== */
 @media (max-width: 992px) {
