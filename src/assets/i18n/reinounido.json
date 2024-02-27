@@ -1,7 +1,7 @@
 {
   "navbar": {
     "downloadApp": "Download APP",
-    "psychologists": "Psychologists",
+    "psychologists": "Professionals",
     "whyMoodeast": "¿Why MoodEast?",
     "improveMentalHealth": "Improve your mental health"
   },
@@ -396,5 +396,10 @@
     "supportCommunity": "Support Community",
     "supportCommunityDescription": "We foster the construction of a support community where users can connect with other people who share their challenges and goals. Here, experiences, advice are shared, and mutual support is provided, creating a safe and welcoming space.",
     "freeTrial": "Free Trial"
+  },
+  "colors":{
+    "colors": "Color palette",
+    "chooseColor": "Choose you favorite color"
   }
+
 }

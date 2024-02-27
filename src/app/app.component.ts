@@ -12,7 +12,7 @@ export class AppComponent {
   ngOnInit():void{
     AOS.init();
   }
-  
+
   currentRoute: string = '';
 
   constructor(public router: Router) {
@@ -22,6 +22,4 @@ export class AppComponent {
       }
     });
   }
- 
-  
 }

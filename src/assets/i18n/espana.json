@@ -393,5 +393,9 @@
     "supportCommunity": "Comunidad de apoyo",
     "supportCommunityDescription": "Fomentamos la construcción de una comunidad de apoyo donde los usuarios pueden conectarse con otras personas que comparten sus desafíos y objetivos. Aquí, se comparten experiencias, consejos y se brinda apoyo mutuo, creando un espacio seguro y acogedor.",
     "freeTrial": "Prueba Gratis"
+  },
+  "colors": {
+    "colors": "Paleta de colores",
+    "chooseColor": "Escoge tu color favorito"
   }
 }
