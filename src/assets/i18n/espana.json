@@ -66,7 +66,7 @@
         "pinForApp": "Pin para la aplicación",
         "downloadPDFReports": "Descargar informes en PDF",
         "moreEmoticons": "+ emoticonos",
-        "preferencesInPsychologistAppointments": "Preferencias en las citas con el psicólogo",
+        "preferencesInPsychologistAppointments": "Preferencias en las citas con el Profesional",
         "unlockedContent": "Contenido desbloqueado",
         "unlimitedEmotionalJourney": "Viaje emocional ilimitado",
         "unlimitedDailyEmotionalRecords": "Registros emocionales diarios ilimitados"
@@ -86,7 +86,7 @@
         "pinForApp": "Pin para la aplicación",
         "downloadPDFReports": "Descargar informes en PDF",
         "moreEmoticons": "+ emoticonos",
-        "preferencesInPsychologistAppointments": "Preferencias en las citas con el psicólogo",
+        "preferencesInPsychologistAppointments": "Preferencias en las citas con el Profesional",
         "unlockedContent": "Contenido desbloqueado",
         "unlimitedEmotionalJourney": "Viaje emocional ilimitado",
         "unlimitedDailyEmotionalRecords": "Registros emocionales diarios ilimitados"
@@ -131,22 +131,22 @@
     },
     "item6": {
       "question1": "¿Cómo funciona MoodEast para los profesionales de la salud mental?",
-      "answer1": "MoodEast brinda a psicólogos y profesionales de la salud mental una plataforma integral para conectarse con pacientes, ofrecer tratamiento personalizado y acceder a herramientas avanzadas de seguimiento."
+      "answer1": "MoodEast brinda a profesionales de la salud mental una plataforma integral para conectarse con pacientes, ofrecer tratamiento personalizado y acceder a herramientas avanzadas de seguimiento."
     },
     "item7": {
-      "question2": "¿Cómo puedo registrarme como psicólogo en MoodEast?",
-      "answer2": "Para registrarte como psicólogo en MoodEast, simplemente visita nuestra página de registro y sigue los pasos para crear tu perfil profesional. Una vez aprobado, puedes comenzar a atender a pacientes."
+      "question2": "¿Cómo puedo registrarme como Profesional en MoodEast?",
+      "answer2": "Para registrarte como Profesional en MoodEast, simplemente visita nuestra página de registro y sigue los pasos para crear tu perfil profesional. Una vez aprobado, puedes comenzar a atender a pacientes."
     },
     "item8": {
-      "question3": "¿Qué ventajas ofrece MoodEast a los psicólogos?",
-      "answer3": "MoodEast ofrece a los psicólogos acceso a una amplia base de posibles pacientes, herramientas de gestión de citas, recursos de tratamiento y la posibilidad de colaborar con otros profesionales de la salud mental."
+      "question3": "¿Qué ventajas ofrece MoodEast a los Profesionales?",
+      "answer3": "MoodEast ofrece a los Profesionals acceso a una amplia base de posibles pacientes,   recursos de tratamiento y la posibilidad de colaborar con otros profesionales de la salud mental."
     },
     "item9": {
       "question4": "¿Puedo personalizar mis tratamientos para cada paciente?",
       "answer4": "Sí, MoodEast te permite personalizar tus tratamientos para adaptarlos a las necesidades únicas de cada paciente. Puedes utilizar herramientas de seguimiento y recursos específicos para lograr resultados más efectivos."
     },
     "item10": {
-      "question5": "¿Cómo gestiono mis citas y horarios como psicólogo en MoodEast?",
+      "question5": "¿Cómo gestiono mis citas y horarios como Profesional en MoodEast?",
       "answer5": "MoodEast ofrece una función de gestión de citas que te permite programar, reprogramar y cancelar citas fácilmente. También puedes establecer tus propios horarios de disponibilidad."
     },
     "item11": {
@@ -178,6 +178,7 @@
   "psychologists": {
     "title": "Profesionales",
     "howItWorks": "Cómo Funciona para Profesionales",
+    "personalized":"Personaliza tus Tratamientos",
     "join": "Únete a MoodEast",
     "discover": "Descubre cómo MoodEast puede ayudarte a hacer crecer tu práctica y brindar un mejor soporte de salud mental.",
     "directConnection": "Conexión directa con pacientes",
@@ -193,7 +194,7 @@
     "accessToUsers": "Acceso a una Amplia Base de Usuarios",
     "userBaseDescription": "Ten acceso a una amplia base de usuarios que buscan apoyo en salud mental. Esto significa que puedes llegar a más personas y brindar tus servicios a quienes más lo necesitan. Nuestra plataforma te conecta con usuarios de diferentes edades, antecedentes y necesidades, lo que te permite ampliar tu experiencia y habilidades.",
     "FlexibilityComfort": "Flexibilidad y Comodidad",
-    "FlexibilityComfortDescription": "Añade flexibilidad de horarios y ubicación. Puedes elegir cuándo y dónde atender a tus pacientes, lo que te brinda la libertad de adaptar tu práctica a tus necesidades personales. Ya sea que prefieras ofrecer sesiones en línea desde la comodidad de tu hogar o en un entorno de consultorio tradicional.",
+    "FlexibilityComfortDescription": "Herramienta integral para mejorar la atención en salud mental. Obtén acceso en tiempo real a los datos de los clientes, desde el seguimiento del estado de ánimo hasta los planes de bienestar, todo en un único panel de control. ",
     "supportToolsTitle": "Herramientas de Apoyo y Seguimiento",
     "supportToolsDescription": "Tenemos una variedad de herramientas de apoyo y seguimiento que facilitan la atención de calidad, incluye recursos de autoayuda y seguimiento personalizado para los usuarios, lo que complementa tu terapia y ayuda a tus pacientes a mantener un progreso constante.",
     "detailedProfilesTitle": "Perfiles Detallados",
@@ -217,7 +218,7 @@
     "objective": "Objetivo",
     "ourCommitment": "Nuestra Compromiso con tu Bienestar",
     "discoverReasons": "Descubre las razones por las que MoodEast es tu compañero ideal para la salud mental y el bienestar.",
-    "accessToProfessionals": "Acceso a Profesionales de la Salud Mental",
+    "accessToProfessionals": "Acceso a Profesionales",
     "connectWithProfessionals": "Conecta con profesionales de la salud mental certificados y experimentados que están aquí para apoyarte las 24 horas del día.",
     "personalizedWellbeing": "Bienestar Personalizado",
     "discoverContent": "Descubre contenido y actividades de bienestar seleccionados especialmente para tus necesidades y objetivos únicos.",
@@ -238,7 +239,8 @@
     "trackingDescription": "Puedes realizar un seguimiento de tu bienestar emocional de manera personalizada. Nuestra plataforma te permite registrar tus estados de ánimo, emociones y actividades diarias.",
     "moodEastMeaning": "MoodEast significa acceso rápido a la ayuda que necesitas. Dar apoyo personalizado y seguimiento de tu progreso para que puedas cuidar de tu salud mental.",
     "ourBases": "Nuestras bases",
-    "mentalHealthProfBenefits": "Beneficios como Profesional de la salud mental",
+
+    "mentalHealthProfBenefits": "Beneficios como Profesional",
     "profDescription": "Para profesionales de la salud mental, ofrecemos una plataforma para llegar a más pacientes y brindar servicios de manera eficiente. Nuestra tecnología facilita la gestión de citas y el seguimiento de pacientes.",
     "learnMore": "Saber más",
     "connectionWithPatients": "Conexión con una Amplia Red de Pacientes",
@@ -310,7 +312,7 @@
     "faq": "Faq",
     "frequentlyAskedQuestions": "Preguntas frecuentes",
     "whatProfessionals": "¿Qué tipo de profesionales de la salud mental están disponibles en MoodEast?",
-    "professionalsAnswer": "En MoodEast, puedes conectarte con psicólogos, psiquiatras, terapeutas y consejeros de salud mental certificados y experimentados.",
+    "professionalsAnswer": "En MoodEast, puedes conectarte con Profesionals, psiquiatras, terapeutas y consejeros de salud mental certificados y experimentados.",
     "howToSchedule": "¿Cómo puedo programar una cita con un profesional de la salud mental en MoodEast?",
     "scheduleAnswer": "Puedes programar una cita en MoodEast a través de la función de programación en línea. Simplemente elige al profesional que desees y selecciona una franja horaria conveniente.",
     "whatIfEmergency": "¿Qué sucede si tengo una emergencia de salud mental?",
@@ -385,7 +387,7 @@
     "mentalHealthImpact": "Nuestro Impacto en la Salud Mental",
     "mentalHealthCommitment": "Comprometidos con la mejora de la salud mental y el bienestar global, nuestra plataforma ha tenido un impacto significativo en la vida de miles de usuarios y profesionales de la salud mental.",
     "certifiedProfessionalSupport": "Apoyo Profesional Certificado",
-    "professionalSupportDescription": "Hemos conectado a miles de usuarios con psicólogos y profesionales altamente calificados. El acceso a apoyo profesional certificado es esencial para abordar los desafíos de salud mental, y estamos orgullosos de proporcionar esta conexión vital.",
+    "professionalSupportDescription": "Hemos conectado a miles de usuarios con Profesionals y profesionales altamente calificados. El acceso a apoyo profesional certificado es esencial para abordar los desafíos de salud mental, y estamos orgullosos de proporcionar esta conexión vital.",
     "selfHelpResources": "Recursos de Autoayuda",
     "selfHelpResourcesDescription": "La plataforma ofrece diversos recursos de autoayuda para gestionar el bienestar emocional, incluyendo ejercicios de relajación, técnicas de manejo del estrés y consejos para el bienestar emocional.",
     "personalizedFollowUp": "Seguimiento Personalizado",

@@ -3,34 +3,39 @@
     <div class="section">
       <div class="container">
         <div class="row align-items-center px-4 mt-5">
-          <div class="col-lg-6 col-md-12 col-12 d-flex justify-content-center d-md-none d-none d-sm-block d-sm-none d-md-block d-lg-block">
+          <div
+            class="col-lg-6 col-md-12 col-12 d-flex justify-content-center d-md-none d-none d-sm-block d-sm-none d-md-block d-lg-block">
             <div class="image" data-aos="fade-up" data-aos-duration="2000">
               <img src="https://leviathancreativestudios.com/assets/img/characters/1.png " alt="image">
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-12 main-form" data-aos="fade-up" data-aos-duration="2000">
-            <form [formGroup]="form" (ngSubmit)="submitForm()">
-              <div class="form" method="info@leviathancreativestudio.com" action="">
+            <form method="POST" action="https://formspree.io/f/xqkrblbn">
+              <div class="form">
                 <h1>{{ 'contact.contactUs' | translate }}</h1>
                 <div class="row">
                   <div class="col-12">
                     <div class="form-group">
-                      <input name="name" type="text" placeholder="{{ 'contact.yourName' | translate }}" required="required" formControlName="name">
+                      <input name="name" type="text" placeholder="{{ 'contact.yourName' | translate }}"
+                        required="required" formControlName="name">
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="form-group">
-                      <input name="email" type="email" placeholder="{{ 'contact.email' | translate }}" required="required" formControlName="email">
+                      <input name="email" type="email" placeholder="{{ 'contact.email' | translate }}"
+                        required="required" formControlName="email">
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="form-group">
-                      <input name="phone" type="text" placeholder="{{ 'contact.phoneNumber' | translate }}" required="required" formControlName="telefono">
+                      <input name="phone" type="text" placeholder="{{ 'contact.phoneNumber' | translate }}"
+                        required="required" formControlName="telefono">
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-group">
-                      <textarea name="message" placeholder="{{ 'contact.yourMessage' | translate }}" formControlName="message"></textarea>
+                      <textarea name="message" placeholder="{{ 'contact.yourMessage' | translate }}"
+                        formControlName="message"></textarea>
                     </div>
                   </div>
                   <div class="col-12">

@@ -121,49 +121,48 @@
 <!-- Tratemientos customizados area -->
 <section id="customize-treatments" class="customize-treatments">
   <div class="container">
-    <div class="customize-treatments-head" data-aos="fade-up" data-aos-duration="2000">
-      <h2>Personaliza tus Tratamientos</h2>
-    </div>
-    <div class="row d-flex align-items-center">
-      <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-duration="2000">
-        <div class="row">
-          <div class="col-lg-6 col-12">
-            <div class="single-feature">
-              <i class="bi bi-people"></i>
-              <h3>{{ 'psychologists.detailedProfilesTitle' | translate }}</h3>
-              <p>{{ 'psychologists.detailedProfilesDescription' | translate }}</p>
+   <h2> <div class="customize-treatments-head" data-aos="fade-up" data-aos-duration="2000"
+      [translate]="'psychologists.personalized'"></div></h2>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="single-feature">
+                <i class="bi bi-people"></i>
+                <h3>{{ 'psychologists.detailedProfilesTitle' | translate }}</h3>
+                <p>{{ 'psychologists.detailedProfilesDescription' | translate }}</p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <div class="single-feature">
-              <i class="bi bi-bar-chart"></i>
-              <h3>{{ 'psychologists.continuousMonitoringTitle' | translate }}</h3>
-              <p>{{ 'psychologists.continuousMonitoringDescription' | translate }}</p>
+            <div class="col-lg-6 col-12">
+              <div class="single-feature">
+                <i class="bi bi-bar-chart"></i>
+                <h3>{{ 'psychologists.continuousMonitoringTitle' | translate }}</h3>
+                <p>{{ 'psychologists.continuousMonitoringDescription' | translate }}</p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <div class="single-feature">
-              <i class="bi bi-book"></i>
-              <h3>{{ 'psychologists.selfHelpResourcesTitle' | translate }}</h3>
-              <p>{{ 'psychologists.selfHelpResourcesDescription' | translate }}</p>
+            <div class="col-lg-6 col-12">
+              <div class="single-feature">
+                <i class="bi bi-book"></i>
+                <h3>{{ 'psychologists.selfHelpResourcesTitle' | translate }}</h3>
+                <p>{{ 'psychologists.selfHelpResourcesDescription' | translate }}</p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <div class="single-feature">
-              <i class="bi bi-people"></i>
-              <h3>{{ 'psychologists.adaptationMethodsTitle' | translate }}</h3>
-              <p>{{ 'psychologists.adaptationMethodsDescription' | translate }}</p>
+            <div class="col-lg-6 col-12">
+              <div class="single-feature">
+                <i class="bi bi-people"></i>
+                <h3>{{ 'psychologists.adaptationMethodsTitle' | translate }}</h3>
+                <p>{{ 'psychologists.adaptationMethodsDescription' | translate }}</p>
+              </div>
             </div>
           </div>
         </div>
+        <div class="col-lg-6 col-12 d-flex justify-content-center why-psicologo-image" data-aos="fade-up"
+          data-aos-duration="2000">
+          <img src="https://moodeast.com/assets/mockups/mockup6.png" alt="Mockup">
+        </div>
       </div>
-      <div class="col-lg-6 col-12 d-flex justify-content-center why-psicologo-image" data-aos="fade-up"
-        data-aos-duration="2000">
-        <img src="https://moodeast.com/assets/mockups/mockup6.png" alt="Mockup">
-      </div>
-    </div>
 
-  </div>
+    </div>
 
 </section>
 <!--==== Final tratamientos customizados area ===== -->
@@ -281,7 +280,7 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>{{ 'faq.answer2' | translate }}</p>
+                <p>{{ 'faq.item7.answer2' | translate }}</p>
               </div>
             </div>
           </div>
@@ -315,27 +314,13 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <span class="title"><span class="serial">05</span>{{ 'faq.item10.question5' | translate }}</span>
-                <i class="lni lni-plus"></i>
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-              <p>{{ 'faq.item10.answer5' | translate }}</p>
-              </div>
-            </div>
-          </div>
+
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                <span class="title"><span class="serial">06</span>{{ 'faq.item11.question6' | translate }}</span>
+                <span class="title"><span class="serial">05 </span>{{ 'faq.item11.question6' | translate }}</span>
                 <i class="lni lni-plus"></i>
               </button>
             </h2>
