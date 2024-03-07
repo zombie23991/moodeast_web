@@ -8,16 +8,18 @@ declare var bootstrap: any;
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css'],
 })
+
 export class FooterComponent implements AfterViewInit {
   constructor(public translate: TranslateService) {
-    translate.addLangs(['espana', 'reinounido']);
-    translate.setDefaultLang('espana');
-    const browserLang = translate.getBrowserLang() ?? 'espana';
-    translate.use(
-      browserLang.match(/espana|reinounido/) ? browserLang : 'espana'
-    );
-  }
+    translate.addLangs(['reinounido', 'espana']);
 
+    const browserLang = translate.getBrowserLang();
+    let appLang = 'reinounido'; // default to 'reinounido'
+    if (browserLang === 'es') {
+      appLang = 'espana';
+    }
+    translate.use(appLang);
+  }
   ngAfterViewInit() {
     var dropdownElementList = [].slice.call(
       document.querySelectorAll('.dropdown-toggle')
