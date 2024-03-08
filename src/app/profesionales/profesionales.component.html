@@ -1,5 +1,5 @@
 <section class="hero">
-<h1 class="text-center">Ser Profesional</h1>
+  <h1 class="text-center">{{ 'professional.SER_PROFESIONAL' | translate }}</h1>
 </section>
 
 <section id="for-professionals" class="for-professionals section">
@@ -50,26 +50,158 @@
 </section>
 
 <!-- CTA for Psychologists -->
-<section class="call-action" id="action">
-  <div class="container py-4" data-aos="fade-up" data-aos-duration="1500">
+<section class="container">
+  <div class="for-professionals-head section-dashboard">
     <div class="row">
-      <div class="col-12 col-md-7 px-5">
-        <div class="py-4">
-          <div>
-            <h2 class="mb-3">{{ 'psychologists.joinAsProfessional' | translate }}</h2>
-          </div>
-          <div>
-            <p class="h5 fw-200 my-4">{{ 'psychologists.expandReach' | translate }}</p>
-          </div>
-          <a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">{{
-            'psychologists.registerAsProfessional' | translate }}</a>
+      <div class="col-12">
+        <div class="section-title">
+          <h3 data-aos="fade-up" data-aos-duration="2000">{{ 'professional.ENRIQUECE_TITULO' | translate }}</h3>
+          <h2 data-aos="fade-up" data-aos-duration="2500">{{ 'professional.ELEVA_PRACTICAS' | translate }}</h2>
+          <p data-aos="fade-up" data-aos-duration="2800">{{ 'professional.ENFOCANDOTE_TEXTO' | translate }}</p>
         </div>
       </div>
-      <div class="col-12 col-md-5 d-none d-md-block">
-        <div class="cta-image d-flex justify-content-center">
-          <img src=" https://moodeast.com/assets/characters/13.png " alt="Mockup">
+    </div>
+  </div>
+
+  <div class="row" data-aos="fade-up" data-aos-duration="2800">
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 dashboard">
+        <div class="card-body ">
+          <h3 class="card-title text-center">{{ 'professional.TABLERO_TITULO' | translate }}</h3>
+          <p class="card-text1  ">{{ 'professional.EXPLORA_TEXTO' | translate }}</p>
+        </div>
+        <img id="dashboard" src="https://moodeast.com/assets/characters/13.png" class="card-img-bottom" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="card  text-white h-35">
+        <div class="card-body img-card-background">
+          <h3 class="card-title text-center">{{ 'professional.INTERACCIONES_TITULO' | translate }}</h3>
+          <p class="card-text text-center">{{ 'professional.INTERACCIONES_TEXTO' | translate }}</p>
+        </div>
+      </div>
+      <div class="card mt-4 h-40 text-white">
+        <div class="card-body d-flex align-items-center">
+          <div>
+            <h3 class="card-title">{{ 'professional.PRACTICA_TITULO' | translate }}</h3>
+            <p class="card-text">{{ 'professional.PRACTICA_TEXTO' | translate }}</p>
+          </div>
+          <img id="dashboard-healt"
+            src="https://img.freepik.com/vector-gratis/concepto-conciencia-salud-mental_23-2148531011.jpg?t=st=1709724272~exp=1709727872~hmac=a2851cbb1345a9fcb94c25046a26abf65efa434ce2408c370f837f2dae1e3fcd&w=740"
+            class="mr-3" alt="Imagen de práctica">
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+
+<section id="pasos" class="section pb-0 cards">
+  <div class="for-professionals-head">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h3 data-aos="fade-up" data-aos-duration="2000">{{ 'professional.ERES_PROFESIONAL' | translate }}</h3>
+            <h2 data-aos="fade-up" data-aos-duration="2500">{{ 'professional.UNETE_MOODEAST' | translate }}</h2>
+            <p data-aos="fade-up" data-aos-duration="2800">{{ 'professional.POCOS_PASOS' | translate }}</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+  <section class="cards">
+    <div class="container">
+    <div class="row d-flex justify-content-evenly align-items-center container-fluid" data-aos="fade-up"
+      data-aos-duration="2800">
+      <div class="col-3">
+        <div class="card text-center text-black  p-3 steps-card">
+          <h3>{{ 'professional.DESCARGA_APP' | translate }}</h3>
+          <i class="bi bi-download"></i>
+          <a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">{{
+            'psychologists.registerAsProfessional' | translate }}</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center text-black  p-3 steps-card">
+          <h3>{{ 'professional.REGISTRATE_TITULO' | translate }}</h3>
+          <i class="bi bi-person-badge"></i>
+          <p>{{ 'professional.REGISTRATE_TEXTO' | translate }}</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center text-black  p-3 steps-card">
+          <h3>{{ 'professional.ACCESO_TITULO' | translate }}</h3>
+          <i class="bi bi-graph-up"></i>
+          <p>{{ 'professional.ACCESO_TEXTO' | translate }}</p>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center text-black  p-3 steps-card">
+          <h3>{{ 'professional.INVITA_TITULO' | translate }}</h3>
+          <i class="bi bi-send"></i>
+          <p>{{ 'professional.INVITA_TEXTO' | translate }}</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="call-action section-call "data-aos="fade-up" data-aos-duration="2800"  id="action">
+    <div class="container py-4" data-aos="fade-up" data-aos-duration="1500">
+      <div class="row">
+        <div class="col-12 col-md-7 px-5">
+          <div class="py-4">
+            <div>
+              <h2 class="mb-3">{{ 'psychologists.joinAsProfessional' | translate }}</h2>
+            </div>
+            <div>
+              <p class="h5 fw-200 my-4">{{ 'psychologists.expandReach' | translate }}</p>
+            </div>
+            <a href="/coming-soon" class="btn btn-lg btn-secondary py-3 px-5 mt-4">{{
+              'psychologists.registerAsProfessional' | translate }}</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 d-none d-md-block">
+          <div class="cta-image d-flex justify-content-center">
+            <img src=" https://moodeast.com/assets/characters/13.png " alt="Mockup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="potencial" class="section-potencial">
+    <div class="for-professionals-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3 data-aos="fade-up" data-aos-duration="2000">{{ 'professional.CONFIA_SEGURIDAD' | translate }}</h3>
+              <h2 data-aos="fade-up" data-aos-duration="2500">{{ 'professional.SEGURIDAD_MOODEAST' | translate }}</h2>
+              <p data-aos="fade-up" data-aos-duration="2800">{{ 'professional.SEGURIDAD_TEXTO' | translate }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-seguridad" data-aos="fade-up" data-aos-duration="2800">
+    <div class="wrap py-4">
+      <div class="col">
+        <div class="mb-4">
+          <h3 class="text-h2 text-black">{{ 'professional.CONFIA_MOODEAST' | translate }}</h3>
+        </div>
+        <p class="text-h5 text-black">{{ 'professional.TRABAJA_EQUIPO' | translate }}</p>
+      </div>
+      <div id="seguridad" class="col cta-image d-flex justify-content-center">
+        <img src="https://moodeast.com/assets/characters/16.png" alt="Mockup">
+      </div>
+    </div>
+  </section>

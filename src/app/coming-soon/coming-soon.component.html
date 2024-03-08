@@ -4,25 +4,21 @@
       <div class="row align-items-center px-4">
         <div class=" col-lg-6 col-md-12 col-12 d-flex justify-content-center"><!--col-lg-6 si hay el kickstarter-->
           <div class="image" data-aos="fade-right" data-aos-duration="2000">
-            <h1 class="">Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo</h1>
-            <p class="p lead">Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma
-              pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.</p>
+            <h1 [translate]="'coming.unete'"></h1>
+            <p class="p lead" [translate]="'coming.trabajando'"></p>
             <form action="https://formspree.io/f/xqkrblbn" method="POST" class="newsletter-form"> <input type="hidden"
                 name="u" value="">
               <input type="hidden" name="id" value="">
-              <input type="email" name="email" id="email" placeholder="Pon tu email para enterarte de todo">
-              <button type="submit" class="button">Suscribirse</button>
+<input type="email" name="email" id="email" [placeholder]="'coming.email' | translate">                <button type="submit" class="button"[translate]="'coming.suscribirse'"></button>
             </form>
 
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-12 main-form py-5 " data-aos="fade-left" data-aos-duration="2000">
           <div class="px-2 py-5 text-center kickstarter">
-            <h2 class="">¡Sé Parte del Desarrollo en Kickstarter!</h2>
-            <p class="p lead">Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros
-              patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast
-              una realidad!</p>
-            <a href="http://kck.st/3SgrB1l" class="btn btn-lg btn-light py-3 px-5 mt-4">Apoya a MoodEast</a>
+            <h2 class=""[translate]="'coming.serParte'"></h2>
+            <p class="p lead" [translate]="'coming.descubre'"></p>
+            <a href="http://kck.st/3SgrB1l" target="_blank" class="btn btn-lg btn-light py-3 px-5 mt-4" [translate]="'coming.apoya'"></a>
           </div>
         </div>
       </div>

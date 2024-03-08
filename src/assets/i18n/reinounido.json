@@ -178,7 +178,7 @@
   "psychologists": {
     "title": "Profesionals",
     "howItWorks": "How It Works for Professionals",
-    "personalized":"Personalize your Treatments",
+    "personalized": "Personalize your Treatments",
     "join": "Join MoodEast",
     "discover": "Discover how MoodEast can help you grow your practice and provide better mental health support.",
     "directConnection": "Direct Connection with Patients",
@@ -399,9 +399,52 @@
     "supportCommunityDescription": "We foster the construction of a support community where users can connect with other people who share their challenges and goals. Here, experiences, advice are shared, and mutual support is provided, creating a safe and welcoming space.",
     "freeTrial": "Free Trial"
   },
-  "colors":{
+  "colors": {
     "colors": "Color palette",
     "chooseColor": "Choose you favorite color"
-  }
+  },
+  "coming": {
+    "ERES_PROFESIONAL": "Are you a professional and want to work with Moodeast?",
+    "UNETE_MOODEAST": "Join Moodeast",
+    "POCOS_PASOS": "In a few very simple steps you will be working with Moodeast",
 
+    "unete":"Join Our Journey: MoodEast in Full Development",
+    "trabajando":"We are working hard on the development of MoodEast, a pioneering mental health platform, and we want you to be the first to know all our news.",
+    "email":"Enter your email to find out everything",
+    "suscribirse":"Subscribe",
+    "serParte":"Be Part of the Development on Kickstarter!",
+    "descubre":"Find out more about our project and the exclusive rewards for our sponsors on our Kickstarter page. Every contribution brings us closer to making MoodEast a reality!",
+    "apoya":"Support MoodEast"
+  },
+  "professional":{
+    "ERES_PROFESIONAL": "Are you a professional and want to work with Moodeast?",
+    "UNETE_MOODEAST": "Join Moodeast",
+    "POCOS_PASOS": "In a few very simple steps you will be working with Moodeast",
+
+    "SER_PROFESIONAL": "Be Professional",
+    "INTERACCIONES_TITULO": "Instant Interactions with Customers",
+    "INTERACCIONES_TEXTO": "Discover how your customers' moods change and what factors impact them most significantly. Through our advanced analytics platform, you will have access to powerful tools that will allow you to explore your customers' emotional fluctuations in real time. You will be able to identify patterns, trends, and triggers",
+    "PRACTICA_TITULO": "Take your practice to new horizons",
+    "PRACTICA_TEXTO": "Connect with customers from all over the world and expand your practice. Through our platform, you will have the opportunity to establish meaningful connections with potential customers in various countries and cultures.",
+    "ENRIQUECE_TITULO": "Enrich your workflow and get back to doing what you love",
+    "ELEVA_PRACTICAS": "Elevate your practices",
+    "ENFOCANDOTE_TEXTO": "Focusing on your clients' mental health.",
+    "TABLERO_TITULO": "Professional Dashboard",
+    "EXPLORA_TEXTO": "Explore how the client's emotional state varies and what aspects influence it the most.",
+
+    "DESCARGA_APP": "Download the Moodeast App",
+    "REGISTRATE_TITULO": "Register simply and quickly",
+    "REGISTRATE_TEXTO": "Start by registering on Moodeast completely free, you will only need full name and email nothing else",
+    "ACCESO_TITULO": "Access your work dashboard",
+    "ACCESO_TEXTO": "Once registered you can access your dashboard, from it you can see all kinds of relevant information",
+    "INVITA_TITULO": "Invite your workers/patients",
+    "INVITA_TEXTO": "Invite your workers to work with you or invite your clients to start therapy in a very simple and fast way",
+
+    "CONFIA_SEGURIDAD": "Not sure if you can trust Moodeast's security?",
+    "SEGURIDAD_MOODEAST": "Security at Moodeast",
+    "SEGURIDAD_TEXTO": "Security at Moodeast is everything, we have multiple security systems",
+    "CONFIA_MOODEAST": "Trust in Moodeast",
+    "TRABAJA_EQUIPO": "Work with your team in a safe and healthy way, taking care of your mental health every step of the way. Join us and be part of a culture where mutual support and self-care are fundamental. Discover how you can grow and thrive in an environment that prioritizes your mental health and professional development."
+
+  }
 }

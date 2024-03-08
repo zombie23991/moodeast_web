@@ -1,0 +1,272 @@
+/* obective area */
+.for-professionals {
+    background-color: #f8f9fa;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover {
+    background-color: var(--primary-color);
+}
+
+.for-professionals .for-profesionals-info .single-info {
+    margin-top: 30px;
+    position: relative;
+    padding: 40px;
+    padding-left: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    box-shadow: 0 1px 20px 0 rgba(32, 32, 32, .11);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 20em;
+}
+
+.for-professionals .for-profesionals-info .single-info h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #081828;
+    margin-bottom: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info i {
+    font-size: 30px;
+    color: var(--primary-color);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover i {
+    color: #fff;
+}
+
+.for-professionals .for-profesionals-info ul,
+.for-professionals .for-profesionals-info ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.for-professionals .for-profesionals-info li {
+    font-weight: 400;
+    font-style: normal;
+    color: #888;
+    overflow-x: hidden;
+    font-size: 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.for-professionals .for-profesionals-info .single-info:hover ul li,
+.for-professionals .for-profesionals-info .single-info:hover h3 {
+    color: #fff;
+}
+
+/*==== Fin bective area ====*/
+
+/* Estilos de call to action */
+
+.call-action {
+    padding-bottom: 4em;
+    background-color: #f8f9fa;
+}
+
+.call-action .container {
+    background-color: var(--primary-color);
+    border-radius: 35px;
+}
+
+.call-action .cta-content {
+    text-align: left;
+}
+
+.call-action .cta-image {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInRight;
+}
+
+.cta-image img {
+    height: 100%;
+    max-height: 21em;
+    max-width: max-content;
+}
+
+#seguridad img {
+    height: 90%;
+    max-height: 19em;
+    max-width: max-content;
+}
+.call-action .cta-content h2 {
+    color: #fff;
+    line-height: 50px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.call-action .cta-content p {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.call-action .cta-content .button {
+    margin-top: 40px;
+}
+
+/* ==== Fin Estilos de call to action ==== */
+/* ==== Dashboard ==== */
+.dashboard {
+
+    background-color: var(--primary-color);
+
+}
+.section-dashboard {
+padding-top:50px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+/* Estilos para el encabezado principal */
+.section-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-call{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.section-potencial{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+/* Estilos para las tarjetas */
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+
+}
+#dashboard{
+width: 50%;
+    height: auto;
+    justify-content: center;
+}
+#dashboard-healt{
+ max-width: 189px;
+    width: 100%;
+
+
+}
+
+
+.img-card-background{
+    width: 100%;
+    border-radius: 12px;
+    /* background-image: ; */
+    background-size:cover;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el texto de la tarjeta */
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card-text1 {
+    font-size: 1rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold ;
+}
+
+.cards{
+  background-color: #fafbfd;
+}
+.steps-card{
+  font-size: 10px;
+  border-radius: 12px;
+max-height: 100%;}
+
+.steps-card h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.steps-card i{
+  font-size: 35px;
+}
+
+
+
+.container-seguridad {
+  max-width: 1150px; /* Por ejemplo, puedes ajustar este valor según tus necesidades */
+  width: 90%; /* Para asegurar que no ocupe toda la pantalla */
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding: 0 17px;
+  background-color: var(--secondary-color);
+  border-radius: 35px;
+}
+
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.text-h2 {
+  font-size: 23pt;
+  line-height: 1.2;
+  font-weight: 600;
+  font-weight: bold
+  ;
+}
+
+.text-h5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.text-black {
+  color: #000;
+}
+
+
+
+
+

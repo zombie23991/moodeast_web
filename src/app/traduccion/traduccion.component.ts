@@ -9,8 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class TraduccionComponent {
   constructor(public translate: TranslateService) {
-    translate.addLangs(['en','es']);
-    translate.setDefaultLang('en');
+    translate.addLangs(['reinounido','espana']);
+    translate.setDefaultLang('reinounido');
   }
   switchLang(lang: string) {
     this.translate.use(lang);

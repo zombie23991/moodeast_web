@@ -399,5 +399,47 @@
   "colors": {
     "colors": "Paleta de colores",
     "chooseColor": "Escoge tu color favorito"
+  },
+  "coming":{
+    "unete":"Únete a Nuestro Viaje: MoodEast en Pleno Desarrollo",
+    "trabajando":"Estamos trabajando arduamente en el desarrollo de MoodEast, una plataforma pionera en salud mental, y queremos que seas el primero en conocer todas nuestras novedades.",
+    "email":"Pon tu email para enterarte de todo",
+    "suscribirse":"Suscribirse",
+    "serParte":"¡Sé Parte del Desarrollo en Kickstarter!",
+    "descubre":"Descubre más sobre nuestro proyecto y las exclusivas recompensas para nuestros patrocinadores en nuestra página de Kickstarter. ¡Cada aporte nos acerca a hacer de MoodEast una realidad!",
+    "apoya":"Apoya a MoodEast"
+
+  },
+  "professional":{
+    "ERES_PROFESIONAL": "Eres Profesional y quieres trabajar con Moodeast?",
+    "UNETE_MOODEAST": "Unete a Moodeast",
+    "POCOS_PASOS": "En unos pocos pasos muy sencillos ya estaras trabajando con Moodeast",
+
+    "SER_PROFESIONAL": "Ser Profesional",
+    "INTERACCIONES_TITULO": "Interacciones Instantáneas con Clientes",
+    "INTERACCIONES_TEXTO": "Descubre cómo cambian los estados de ánimo de tus clientes y qué factores los impactan de manera más significativa A través de nuestra plataforma de análisis avanzado, tendrás acceso a herramientas poderosas que te permitirán explorar las fluctuaciones emocionales de tus clientes en tiempo real. Podrás identificar patrones, tendencias y desencadenantes",
+    "PRACTICA_TITULO": "Lleva tu práctica a nuevos horizontes",
+    "PRACTICA_TEXTO": "Conéctate con clientes de todo el mundo y expande tu práctica. A través de nuestra plataforma, tendrás la oportunidad de establecer conexiones significativas con clientes potenciales en diversos países y culturas.",
+    "ENRIQUECE_TITULO": "Enriquece tu flujo de trabajo y vuelve a hacer lo que amas",
+    "ELEVA_PRACTICAS": "Eleva tus practicas",
+    "ENFOCANDOTE_TEXTO": "Enfocándote en la salud mental de tus clientes.",
+    "TABLERO_TITULO": "Tablero Profesional",
+    "EXPLORA_TEXTO": "Explora cómo varía el estado emocional del cliente y qué aspectos lo influyen en mayor medida.",
+
+    "DESCARGA_APP": "Descargate la App de Moodeast",
+    "REGISTRATE_TITULO": "Registrate sencillamente y rapido",
+    "REGISTRATE_TEXTO": "Empieza registrandote en Moodeast totalmente gratuito, solo necesitaras nombre completo Y email",
+    "ACCESO_TITULO": "Accede a tu dashboard de trabajo",
+    "ACCESO_TEXTO": "Una vez registrado podras aceder a tu dashboard, desde el podras ver todo tipo de informacion relevante",
+    "INVITA_TITULO": "Invita a tus tarbajadores/pacientes",
+    "INVITA_TEXTO": "Invita a tus trabajadores para trabajar junto a ti o invita a tus clientes para empezar con la terapia",
+
+    "CONFIA_SEGURIDAD": "No sabes si confiar en la seguridad de Moodeast?",
+    "SEGURIDAD_MOODEAST": "Seguridad en Moodeast",
+    "SEGURIDAD_TEXTO": "La seguridad en Moodeast lo es todo, contamos con multiples sistemas de seguridad",
+    "CONFIA_MOODEAST": "Confia en Moodeast",
+    "TRABAJA_EQUIPO": "Trabaja con tu equipo de manera segura y saludable, cuidando de tu salud mental en cada paso del camino. Únete a nosotros y forma parte de una cultura donde el apoyo mutuo y el autocuidado son fundamentales. Descubre cómo puedes crecer y prosperar en un entorno que prioriza tu salud mental y tu desarrollo profesional."
+    
   }
+
 }
