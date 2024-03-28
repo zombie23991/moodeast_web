@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "moodeast_web:build:production"
+              "buildTarget": "moodeast_web:build:production"
             },
             "development": {
-              "browserTarget": "moodeast_web:build:development"
+              "buildTarget": "moodeast_web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "moodeast_web:build"
+            "buildTarget": "moodeast_web:build"
           }
         },
         "test": {
