@@ -18,6 +18,9 @@ import { TraduccionComponent } from './traduccion/traduccion.component';
 import { BlogComponent } from './blog/blog.component';
 import { EntradaBlogComponent } from './entrada-blog/entrada-blog.component';
 import { ProfesionalesComponent } from './profesionales/profesionales.component';
+import { AvisoLegalComponent } from './legal/aviso-legal/aviso-legal.component';
+import { PoliticaCookiesComponent } from './legal/politica-cookies/politica-cookies.component';
+import { PoliticaPrivacidadComponent } from './legal/politica-privacidad/politica-privacidad.component';
 
 const routes: Routes = [
   // Ruta a la pagina home
@@ -57,6 +60,12 @@ const routes: Routes = [
 
   //Profesionales
   {path:`profesionales`,component:ProfesionalesComponent},
+
+  //Legal
+  {path:`aviso-legal`,component:AvisoLegalComponent},
+  {path:`politica-cookies`,component:PoliticaCookiesComponent},
+  {path:`politica-privacidad`,component:PoliticaPrivacidadComponent},
+  
 
   // Ruta para la página 404
   { path: '404', component: NotFoundComponent },

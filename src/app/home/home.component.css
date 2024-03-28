@@ -430,16 +430,9 @@ ol {
   font-style:italic;
 }
 
-.Mockup-img img {
-  min-width: 100px;
-  max-width: 50%;
-  height: auto;
-}
-.Mockup-img2 img{
-min-width: 100px;
-max-width: 30%;
-height: auto;
-
+.mockup-img img {
+    height: 35em;
+    width: auto;
 }
 #mockupsColors img{
   height: 100%;
